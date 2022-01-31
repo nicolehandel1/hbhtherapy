@@ -188,7 +188,7 @@
                         <a href="/"><img src="<?php the_field( 'header_desktop_logo', 'option' ); ?>" data-rjs="2" alt="HBH Loho"></a>
                     </div><!-- .site-branding -->
 
-                    <a class="phone" href="tel:<?php the_field( 'header_phone_number_link', 'option' ); ?>"><?php the_field( 'header_phone_number', 'option' ); ?></a>
+                    <a class="phone" href="tel:<?php the_field( 'header_phone_number_link', 'option' ); ?>">test<?php the_field( 'header_phone_number', 'option' ); ?></a>
 
                     <div class="site-menu">
                         <nav id="myNav" class="main-navigation">
