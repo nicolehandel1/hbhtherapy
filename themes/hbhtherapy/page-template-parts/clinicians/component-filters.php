@@ -24,7 +24,7 @@ $services = get_terms( array(
         
         <div class="filter-wrap">
             <div class="filters">
-                <select value-group="locations" class="button-group js-radio-button-group filters-select" data-width="100%">
+                <div class="select"><select value-group="locations" class="button-group js-radio-button-group filters-select" data-width="100%">
                     <option title="button is-checked" value="">Locations</option>
                     <option title="button is-checked" value="">View All</option>
 
@@ -32,9 +32,9 @@ $services = get_terms( array(
                     echo '<option class="button" value=".'.$location->slug.'">'.$location->name.'</option>';
             }?>
 
-                </select>
+                </select></div>
 
-                <select value-group="services" class=" button-groupjs-radio-button-group filters-select" data-width="100%">
+                <div class="select"><select value-group="services" class=" button-groupjs-radio-button-group filters-select" data-width="100%">
                     <option title="button is-checked" value="">Servies</option>
                     <option title="button is-checked" value="">View All</option>
 
@@ -42,7 +42,7 @@ $services = get_terms( array(
                     echo '<option class="button" value=".'.$service->slug.'">'.$service->name.'</option>';
             }?>
 
-                </select>
+                    </select></div>
             </div>
 
             <p class="search">

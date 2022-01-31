@@ -50,6 +50,8 @@ $image = get_sub_field('hmsrv-image');
         <div class="hmsrv-grid-wrap hmsrv-wrap-mobile">
 
             <h2><?php the_sub_field( 'hmsrv-title' ); ?></h2>
+            
+            <img class="hm-map" src="<?php print $image['url'] ?>" data-rjs="2" alt="MA map">
 
             <div class="hmsrv-grid">
 

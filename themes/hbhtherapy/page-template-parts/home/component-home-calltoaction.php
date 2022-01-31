@@ -1,17 +1,3 @@
-<style>
-.home-calltoaction {
-    }
-.home-call-btom {
-    justify-content: center;
-    width: 100%;
-    padding: 25px 50px 100px 50px;
-    text-align: center;
-    }
-    .home-call-btom h3 {
-        width: 100%;
-    }
-</style>
-
 <div class="section home-calltoaction">
     <div class="section-content align-center">
         <div class="home-call-wrap home-call-btom">

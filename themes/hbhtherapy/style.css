@@ -235,6 +235,29 @@ input {
 button,
 select {
     text-transform: none;
+    -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;       /* Remove default arrow */
+    border-radius: 0px;
+}
+
+select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    background-image: none;
+    border: 0;
+    flex: 1;
+     padding: 10px 20px;
+    color: #4D4D4D;
+    font-weight: 700;
+    cursor: pointer;
+}
+    
+select::-ms-expand {
+    display: none;
 }
 
 /**
@@ -446,8 +469,9 @@ h2 {
 
 @media only screen and (max-width: 700px) {
     h2 {
-        font-size: 2em;
-        text-align: center;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 10px;
     }
 }
 
@@ -726,12 +750,47 @@ textarea:focus {
     color: #111;
 }
 
-select {
-    border: 1px solid #ccc;
-}
-
 textarea {
     width: 100%;
+}
+
+.select {
+    position: relative;
+    display: flex;
+    height: 3em;
+    line-height: 3;
+    overflow: hidden;
+    border: 1px solid #085962;
+    box-shadow: -2px 2px 2px -2px #085962;
+    -webkit-box-shadow: -2px 2px 2px -2px #085962;
+    -moz-box-shadow: -2px 2px 2px -2px #085962;
+}
+    
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+}
+
+.select:hover::after {
+    color: #fff;
+}    
+
+.button-filter-wrap {
+    border: 1px solid #085962;
+    box-shadow: -2px 2px 2px -2px #085962;
+    -webkit-box-shadow: -2px 2px 2px -2px #085962;
+    -moz-box-shadow: -2px 2px 2px -2px #085962;
+}
+
+.service-filters:hover, .button-filter:hover, .service-filters:focus, .button-filter:focus {
+    background-color: #085962;
+    color: #fff;
 }
 
 .btn {
@@ -776,7 +835,7 @@ a.btn {
 
 @media only screen and (max-width: 800px) {
     .btn {
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -1304,18 +1363,28 @@ Home Page
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
+    .bg-home .section-content {
+        flex-wrap: wrap-reverse;
+    }
     .hero-wrap {
         margin-top: 60px;
     }
 
     .bg-home .butterfly-img-wrap {
-        display: none;
+        width: 100%;
+    }
+    
+    .butterfly-img-wrap img {
+        width: 100%;
     }
 
     .home-call-wrap {
+        position: absolute;
         padding: 10px;
         width: 100%;
+        z-index: 2;
+        margin-top: -100px;
     }
 
     .home-tagline {
@@ -1505,7 +1574,11 @@ Home Page
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
+    .hmsrv-grid-item {
+    padding: 5px 30px;
+    font-size: 14px;
+}
     .hmsrv-grid-wrap h2 {
         font-size: 1.5em;
         text-align: left;
@@ -1651,8 +1724,8 @@ a.clinician-card-link:hover {
 
     a.hmclin-view-all {
         font-size: 15pt;
-        text-align: center;
         display: block;
+        padding-left: 10px;
     }
 
     .clinician-card-overlay button {
@@ -1722,10 +1795,14 @@ a.clinician-card-link:hover {
 @media only screen and (max-width: 1296px) {
     .testimonial-wrap {
         padding-right: 60px;
+        width: 65%;
     }
+    .testimonial-img-wrap {
+    width: 30%;
+}
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .testimonial-img-wrap {
         display: none;
     }
@@ -1758,6 +1835,22 @@ a.clinician-card-link:hover {
         line-height: 30px;
     }
 }
+
+/*---- Call to Action Section ------------*/
+
+.home-calltoaction {
+    }
+.home-call-btom {
+    position: inherit;
+    margin-top: 0;
+    justify-content: center;
+    width: 100%;
+    padding: 25px 50px 100px 50px;
+    text-align: center;
+    }
+    .home-call-btom h3 {
+        width: 100%;
+    }
 
 /*--------------------
 Clinicians Page
@@ -1804,23 +1897,19 @@ Clinicians Page
 
 .filters {
     width: 60%;
-}
-
-.filters-select {
-    width: 44%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 25px;
-    padding: 10px 20px;
-    color: #4D4D4D;
-    border: 1px solid #085962;
-    box-shadow: -2px 2px 2px -2px #085962;
-    -webkit-box-shadow: -2px 2px 2px -2px #085962;
-    -moz-box-shadow: -2px 2px 2px -2px #085962;
-    font-weight: 700;
-    cursor: pointer;
 }
 
-.filters-select:focus {
-    outline: 0;
+.filters .select {
+    width: 48%;
+}
+
+.filters-select:hover {
+    background-color: #085962;
+    color: #fff;
 }
 
 option:hover {
@@ -1899,7 +1988,7 @@ h3.clinpage-phone {
 
 @media only screen and (max-width: 1200px) {
     .filter-wrap {
-        margin: 25px;
+        margin: 10px;
     }
 
     .filters {
@@ -1922,11 +2011,13 @@ h3.clinpage-phone {
 }
 
 @media only screen and (max-width: 700px) {
-
     .grid-sizer,
     .grid-item {
         width: 100%;
     }
+    .filters {
+    margin: 10px;
+}
 }
 
 /*--------------------

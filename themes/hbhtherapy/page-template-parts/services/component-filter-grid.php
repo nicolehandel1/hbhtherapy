@@ -1,10 +1,14 @@
 <style>
     
-    .srvpg-filter-warp {
-        width: auto;
-    }
+.srvpg-filter-warp {
+    width: auto;
+}
     
-.service-filters, .button-filter-wrap {
+.select {
+    width: 33.33333%;
+}
+    
+.button-filter-wrap {
     width: 33.33333%;
     border: 1px solid #085962;
     box-shadow: -2px 2px 2px -2px #085962;
@@ -16,13 +20,6 @@
     background-color: #085962;
     color: #fff;
 }
-
-.dropdown-filters {
-    padding: 10px 20px;
-    color: #4D4D4D;
-    font-weight: 700;
-    cursor: pointer;
-}    
 
 .button-filter {
     width: 100%;
@@ -67,7 +64,7 @@
         color: #008587;
         text-decoration: none;
     }
-    
+
 </style>
 <?php 
 
@@ -117,7 +114,7 @@ $psychiatry = new WP_Query( array(
 <div class="section-content">
     <div class="filter-wrap srvpg-filter-warp">
 
-        <select value-group="individual" class="option-set service-filters dropdown-filters" data-width="100%">
+        <div class="select"><select value-group="individual" class="option-set service-filters dropdown-filters" data-width="100%">
             <option value="*" data-filter-value="">Individual</option>
             <option value=".individual" data-filter-value="">View All</option>
 
@@ -127,9 +124,9 @@ $psychiatry = new WP_Query( array(
 
             <?php endwhile; wp_reset_postdata(); ?>
 
-        </select>
+        </select></div>
 
-        <select value-group="relationship" class="option-set service-filters dropdown-filters" data-width="100%">
+        <div class="select"><select value-group="relationship" class="option-set service-filters dropdown-filters" data-width="100%">
             <option value="*" data-filter-value="">Relationships</option>
             <option value=".relationships" data-filter-value="">View All</option>
 
@@ -139,7 +136,7 @@ $psychiatry = new WP_Query( array(
 
             <?php endwhile; wp_reset_postdata(); ?>
 
-        </select>
+            </select></div>
 
         <?php while ( $psychiatry->have_posts() ) : $psychiatry->the_post(); ?>
         <div class="psychiatry-reset button-filter-wrap">
