@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mdb9wo5erpl5/public_html/
+    - export DEPLOYPATH=/home/mdb9wo5erpl5/public_html/wp-content
     -- /bin/cp -RT public $DEPLOYPATH
