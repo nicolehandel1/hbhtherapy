@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<fullname><![CDATA[Amy Softic]]></fullname>
+		<email><![CDATA[softica@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Amherst;Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Personality Disorders;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Expressive Arts Therapy (Art/Music/Dance Therapy);Mindfulness/Meditation]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Anger Management;Grief/Loss/Bereavement;Health/Medical Problems;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/asoftic]]></telehealthlink>
+		<appointments><![CDATA[softica@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Ashleigh Murphy]]></fullname>
+		<email><![CDATA[murphya@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Amherst;Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64]]></appointmenttype>
+		<license><![CDATA[MA Level]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Christian Counseling;Cognitive Behavioral Therapy (CBT);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Grief/Loss/Bereavement;Health/Medical Problems]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/ashleighm]]></telehealthlink>
+		<appointments><![CDATA[murphya@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Ben Ocasio]]></fullname>
+		<email><![CDATA[Beno@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[Doctorate (PhD);MA Level]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Personality Disorders;Sexual Offenders;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Christian Counseling;Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Eye Movement Desensitization & Reprocessing (EDMR);Mindfulness/Meditation]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Divorce/Custody Disputes;Grief/Loss/Bereavement;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[Spanish]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/drocasiotw]]></telehealthlink>
+		<appointments><![CDATA[Beno@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Bob Chabot]]></fullname>
+		<email><![CDATA[chabotr@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LICSW]]></license>
+		<disorderdisability><![CDATA[Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Attachment Based Family Therapy (ABFT);Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Adoption/Foster care;Divorce/Custody Disputes;Grief/Loss/Bereavement;Health/Medical Problems;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/bobchabotlicsw]]></telehealthlink>
+		<appointments><![CDATA[chabotr@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Brittany Godden]]></fullname>
+		<email><![CDATA[goddenb@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 0-5;Children 6-12;Adolescents 13-17]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Depression;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Expressive Arts Therapy (Art/Music/Dance Therapy);Attachment Based Family Therapy (ABFT);Mindfulness/Meditation]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Anger Management;Grief/Loss/Bereavement;LGBTQIA;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/brittanygoddenlmhc]]></telehealthlink>
+		<appointments><![CDATA[goddenb@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Wilbraham]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Cari Chapderlane-Cox]]></fullname>
+		<email><![CDATA[caric@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LICSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT)]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Adoption/Foster care;Anger Management;Divorce/Custody Disputes;Grief/Loss/Bereavement]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/caricthriveworks]]></telehealthlink>
+		<appointments><![CDATA[caric@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[West Springfield]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Caryn Alberini]]></fullname>
+		<email><![CDATA[alberinic@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling]]></appointmenttype>
+		<license><![CDATA[LADC;LCSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Eating Disorders (Anorexia/Bulimia/Binge Eating);Personality Disorders;Schizophrenia Spectrum and Psychotic Disorders;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Attachment Based Family Therapy (ABFT);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Anger Management;Grief/Loss/Bereavement;Health/Medical Problems;LGBTQIA;Peak Performance/Performance Anxiety;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/carynalberini]]></telehealthlink>
+		<appointments><![CDATA[alberinic@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Courtney Mackey]]></fullname>
+		<email><![CDATA[courtneym@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 6-12;Adolescents 13-17;Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Eating Disorders (Anorexia/Bulimia/Binge Eating);Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Expressive Arts Therapy (Art/Music/Dance Therapy);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Anger Management;Grief/Loss/Bereavement;LGBTQIA;Peak Performance/Performance Anxiety]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/courtneymackey]]></telehealthlink>
+		<appointments><![CDATA[courtneym@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[West Springfield]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Deena Traum]]></fullname>
+		<email><![CDATA[deenat@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Franklin;Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 0-5;Children 6-12;Adolescents 13-17;Psych Testing]]></appointmenttype>
+		<license><![CDATA[Doctorate (PsyD)]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Depression]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Attachment Based Family Therapy (ABFT)]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/dtraum]]></telehealthlink>
+		<appointments><![CDATA[deenat@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Donna Havens]]></fullname>
+		<email><![CDATA[havensd@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[MA Level]]></license>
+		<disorderdisability><![CDATA[Depression;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Attachment Based Family Therapy (ABFT);Mindfulness/Meditation]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Grief/Loss/Bereavement]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/dhavens]]></telehealthlink>
+		<appointments><![CDATA[havensd@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Ed Cruz Candelaria]]></fullname>
+		<email><![CDATA[candelariac@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Green]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Obsessive Compulsive Disorder (OCD);Personality Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Anger Management;Grief/Loss/Bereavement;Peak Performance/Performance Anxiety]]></situations>
+		<language><![CDATA[Spanish]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/dredrcruz]]></telehealthlink>
+		<appointments><![CDATA[candelariac@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[West Springfield]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Elizabeth Goodlaxson-Levy]]></fullname>
+		<email><![CDATA[egoodlevy@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LCSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Eating Disorders (Anorexia/Bulimia/Binge Eating);Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Attachment Based Family Therapy (ABFT);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Anger Management;Grief/Loss/Bereavement;Health/Medical Problems;LGBTQIA]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/egtherapyspace]]></telehealthlink>
+		<appointments><![CDATA[egoodlevy@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Eric Hopkins]]></fullname>
+		<email><![CDATA[hopkinse@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64]]></appointmenttype>
+		<license><![CDATA[LICSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Bipolar Disorder;Depression;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Anger Management;Grief/Loss/Bereavement;Peak Performance/Performance Anxiety]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/erichopkinstherapy]]></telehealthlink>
+		<appointments><![CDATA[hopkinse@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Garapha Mezidor]]></fullname>
+		<email><![CDATA[garapham@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Green]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Personality Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT)]]></clinicalmodality>
+		<situations><![CDATA[Anger Management;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/msgarapha]]></telehealthlink>
+		<appointments><![CDATA[garapham@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Greg Handel]]></fullname>
+		<email><![CDATA[greghandel@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Medicare;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[Doctorate (PhD)]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Christian Counseling;Cognitive Behavioral Therapy (CBT)]]></clinicalmodality>
+		<situations><![CDATA[Grief/Loss/Bereavement;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/drghandel]]></telehealthlink>
+		<appointments><![CDATA[greghandel@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[James Gardner]]></fullname>
+		<email><![CDATA[jimg@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Medicare;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Franklin;Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[Doctorate (PhD);LICSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Bipolar Disorder;Depression;Sexual Offenders;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Sex Therapy/Sexual Dysfunction Treatment]]></clinicalmodality>
+		<situations><![CDATA[Anger Management;Grief/Loss/Bereavement;LGBTQIA]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/jimgardner]]></telehealthlink>
+		<appointments><![CDATA[jimg@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Jane Eagles]]></fullname>
+		<email><![CDATA[janee@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+;Family Therapy]]></appointmenttype>
+		<license><![CDATA[Doctorate (PhD);LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Bipolar Disorder;Depression;Substance Related/Addictive Disorders]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT)]]></clinicalmodality>
+		<situations><![CDATA[Adoption/Foster care;Grief/Loss/Bereavement;Peak Performance/Performance Anxiety]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/drjeagles]]></telehealthlink>
+		<appointments><![CDATA[janee@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[John Harrington]]></fullname>
+		<email><![CDATA[jackh@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Franklin;Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 0-5;Children 6-12;Adolescents 13-17;Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Sexual Offenders;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT)]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Divorce/Custody Disputes;Grief/Loss/Bereavement]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/jackieh]]></telehealthlink>
+		<appointments><![CDATA[jackh@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Jordan Castonguay]]></fullname>
+		<email><![CDATA[castonguayj@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Amherst;Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Depression;Obsessive Compulsive Disorder (OCD);Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Eye Movement Desensitization & Reprocessing (EDMR);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Anger Management;Peak Performance/Performance Anxiety]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/jordancastonguay]]></telehealthlink>
+		<appointments><![CDATA[castonguayj@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Jota Weeks]]></fullname>
+		<email><![CDATA[weeksj@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Green]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LMFT]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Personality Disorders;Sexual Offenders;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Christian Counseling;Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Expressive Arts Therapy (Art/Music/Dance Therapy);Attachment Based Family Therapy (ABFT);Mindfulness/Meditation;Sex Therapy/Sexual Dysfunction Treatment]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Adoption/Foster care;Health/Medical Problems;LGBTQIA;Peak Performance/Performance Anxiety;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/jweekslmft]]></telehealthlink>
+		<appointments><![CDATA[weeksj@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[West Springfield]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Julia Bratz]]></fullname>
+		<email><![CDATA[juliab@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Substance Related/Addictive Disorders]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Mindfulness/Meditation]]></clinicalmodality>
+		<situations><![CDATA[Anger Management;Grief/Loss/Bereavement;LGBTQIA]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/juliabratzlmhc]]></telehealthlink>
+		<appointments><![CDATA[juliab@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Kelley MacDougall]]></fullname>
+		<email><![CDATA[macdougallk@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64]]></appointmenttype>
+		<license><![CDATA[MA Level]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Bipolar Disorder;Depression;Eating Disorders (Anorexia/Bulimia/Binge Eating);Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT)]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Adoption/Foster care;Anger Management;Grief/Loss/Bereavement;Health/Medical Problems]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/kmacdougall]]></telehealthlink>
+		<appointments><![CDATA[macdougallk@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Kemba Bloodworth]]></fullname>
+		<email><![CDATA[bloodworthk@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64]]></appointmenttype>
+		<license><![CDATA[LCSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Bipolar Disorder;Depression;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Expressive Arts Therapy (Art/Music/Dance Therapy);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Grief/Loss/Bereavement;LGBTQIA]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/kembab]]></telehealthlink>
+		<appointments><![CDATA[bloodworthk@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Krista Lawrence]]></fullname>
+		<email><![CDATA[lawrencek@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 0-5;Children 6-12;Adolescents 13-17;Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[MA Level]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Obsessive Compulsive Disorder (OCD);Personality Disorders;Schizophrenia Spectrum and Psychotic Disorders;Sexual Offenders;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Expressive Arts Therapy (Art/Music/Dance Therapy);Attachment Based Family Therapy (ABFT);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis;Sex Therapy/Sexual Dysfunction Treatment]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Anger Management;Divorce/Custody Disputes;Grief/Loss/Bereavement;Health/Medical Problems;LGBTQIA;Peak Performance/Performance Anxiety;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/thriveworkskrista]]></telehealthlink>
+		<appointments><![CDATA[lawrencek@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[West Springfield]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Kristen Arnold]]></fullname>
+		<email><![CDATA[arnoldk@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Green]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[LICSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Autism Spectrum Disorder/Asperger's Counseling;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Grief/Loss/Bereavement;Health/Medical Problems;LGBTQIA]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/kristenarnoldlicsw]]></telehealthlink>
+		<appointments><![CDATA[arnoldk@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Larry Brown]]></fullname>
+		<email><![CDATA[brownl@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online;West Springfield]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Depression;Obsessive Compulsive Disorder (OCD);Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Anger Management;Grief/Loss/Bereavement;Health/Medical Problems;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[Spanish;Portuguese]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/larrybrown]]></telehealthlink>
+		<appointments><![CDATA[brownl@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[West Springfield]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Laurie Broussard]]></fullname>
+		<email><![CDATA[BroussardL@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Amherst;Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 0-5;Children 6-12;Adolescents 13-17;Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Bipolar Disorder;Depression;Obsessive Compulsive Disorder (OCD);Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Mindfulness/Meditation]]></clinicalmodality>
+		<situations><![CDATA[Grief/Loss/Bereavement]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/virtualthriveworks]]></telehealthlink>
+		<appointments><![CDATA[BroussardL@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Leo Lease]]></fullname>
+		<email><![CDATA[leol@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 0-5;Children 6-12;Adolescents 13-17;Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[LPC]]></license>
+		<disorderdisability><![CDATA[]]></disorderdisability>
+		<clinicalmodality><![CDATA[]]></clinicalmodality>
+		<situations><![CDATA[]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/leolease]]></telehealthlink>
+		<appointments><![CDATA[leol@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Lindsay Thompson]]></fullname>
+		<email><![CDATA[lindsayt@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online;West Springfield]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Personality Disorders;Schizophrenia Spectrum and Psychotic Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Anger Management;Grief/Loss/Bereavement;Health/Medical Problems;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/lindsaythompson]]></telehealthlink>
+		<appointments><![CDATA[lindsayt@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[West Springfield]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Lisa Ladd-Moe]]></fullname>
+		<email><![CDATA[lisalm@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Green]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+;Family Therapy]]></appointmenttype>
+		<license><![CDATA[MA Level]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Grief/Loss/Bereavement;Health/Medical Problems]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/lisalm]]></telehealthlink>
+		<appointments><![CDATA[lisalm@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Luisa Feng]]></fullname>
+		<email><![CDATA[FengL@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 0-5;Children 6-12;Adolescents 13-17;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Mindfulness/Meditation]]></clinicalmodality>
+		<situations><![CDATA[Anger Management]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/luisathriveworks]]></telehealthlink>
+		<appointments><![CDATA[FengL@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Malia Weber-Parker]]></fullname>
+		<email><![CDATA[weberparkerm@thriveworks.com]]></email>
+		<notes><![CDATA[SP Rates:
+
+Intake $250
+
+Follow up: $100
+
+Complex follow up: $150
+
+If using SP automatically waive EF]]></notes>
+		<priority><![CDATA[Green]]></priority>
+		<acceptedinsurance><![CDATA[BCBS;Health New England]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+;Medication Management]]></appointmenttype>
+		<license><![CDATA[FNP-C]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Eating Disorders (Anorexia/Bulimia/Binge Eating);Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[]]></clinicalmodality>
+		<situations><![CDATA[]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/thrivemalia]]></telehealthlink>
+		<appointments><![CDATA[weberparkerm@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Wilbraham]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Manjit Khalsa]]></fullname>
+		<email><![CDATA[Manjitk@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Medicare;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling]]></appointmenttype>
+		<license><![CDATA[Doctorate (EdD)]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Eye Movement Desensitization & Reprocessing (EDMR);Internal Family Systems (IFS);Mindfulness/Meditation]]></clinicalmodality>
+		<situations><![CDATA[Anger Management;Grief/Loss/Bereavement;LGBTQIA]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/drkhalsa]]></telehealthlink>
+		<appointments><![CDATA[Manjitk@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Matt Blakely]]></fullname>
+		<email><![CDATA[mattb@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Medicare;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64]]></appointmenttype>
+		<license><![CDATA[LICSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Bipolar Disorder;Depression]]></disorderdisability>
+		<clinicalmodality><![CDATA[Christian Counseling;Cognitive Behavioral Therapy (CBT)]]></clinicalmodality>
+		<situations><![CDATA[]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/thriveworksmattb]]></telehealthlink>
+		<appointments><![CDATA[mattb@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Michael Sargent]]></fullname>
+		<email><![CDATA[sargentm@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Medicare;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[LICSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Personality Disorders;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Anger Management;Divorce/Custody Disputes;Grief/Loss/Bereavement;Health/Medical Problems;LGBTQIA;Peak Performance/Performance Anxiety;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/stansfeldpsychotherapy]]></telehealthlink>
+		<appointments><![CDATA[sargentm@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[West Springfield]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Michelle Battipaglia]]></fullname>
+		<email><![CDATA[Battipagliam@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Franklin;Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LMFT]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Bipolar Disorder;Depression]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Internal Family Systems (IFS);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Divorce/Custody Disputes;LGBTQIA]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/MichelleBattipaglia]]></telehealthlink>
+		<appointments><![CDATA[Battipagliam@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Mikkah Weisman]]></fullname>
+		<email><![CDATA[Mikkahw@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Medicare;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LICSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Eating Disorders (Anorexia/Bulimia/Binge Eating);Personality Disorders;Schizophrenia Spectrum and Psychotic Disorders;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Expressive Arts Therapy (Art/Music/Dance Therapy);Attachment Based Family Therapy (ABFT);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis;Sex Therapy/Sexual Dysfunction Treatment]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Adoption/Foster care;Anger Management;Divorce/Custody Disputes;Grief/Loss/Bereavement;Health/Medical Problems;LGBTQIA;Peak Performance/Performance Anxiety;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/mikkahw]]></telehealthlink>
+		<appointments><![CDATA[Mikkahw@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Natalie Brady]]></fullname>
+		<email><![CDATA[nbrady@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 6-12;Adolescents 13-17;Adults 18-64;Adults 65+;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LICSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Eating Disorders (Anorexia/Bulimia/Binge Eating);Personality Disorders;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Expressive Arts Therapy (Art/Music/Dance Therapy);Sex Therapy/Sexual Dysfunction Treatment]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Adoption/Foster care;Anger Management;Divorce/Custody Disputes;Grief/Loss/Bereavement;LGBTQIA;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[Spanish]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/nataliebrady]]></telehealthlink>
+		<appointments><![CDATA[nbrady@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Natalie Espino]]></fullname>
+		<email><![CDATA[espinon@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[Doctorate (PsyD);MA Level]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Bipolar Disorder;Depression;Obsessive Compulsive Disorder (OCD);Personality Disorders]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Mindfulness/Meditation]]></clinicalmodality>
+		<situations><![CDATA[Grief/Loss/Bereavement;LGBTQIA;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[Spanish]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/assembly]]></telehealthlink>
+		<appointments><![CDATA[espinon@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[West Springfield]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Nate Daman]]></fullname>
+		<email><![CDATA[nated@thriveworks.com]]></email>
+		<notes><![CDATA[Paying EF- $59 
+Self-Pay- $130
+
+Ongoing rate decided with Nate]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64]]></appointmenttype>
+		<license><![CDATA[Life Coach]]></license>
+		<disorderdisability><![CDATA[]]></disorderdisability>
+		<clinicalmodality><![CDATA[]]></clinicalmodality>
+		<situations><![CDATA[]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[]]></telehealthlink>
+		<appointments><![CDATA[nated@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Nicole Handel]]></fullname>
+		<email><![CDATA[nicolehandel@thriveworks.com]]></email>
+		<notes><![CDATA[]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[]]></appointmenttype>
+		<license><![CDATA[Doctorate (EdD)]]></license>
+		<disorderdisability><![CDATA[]]></disorderdisability>
+		<clinicalmodality><![CDATA[]]></clinicalmodality>
+		<situations><![CDATA[]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[Clinician will send link]]></telehealthlink>
+		<appointments><![CDATA[nicolehandel@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Nikki Stafford]]></fullname>
+		<email><![CDATA[nikkir@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64]]></appointmenttype>
+		<license><![CDATA[MA Level]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Bipolar Disorder;Depression;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Christian Counseling;Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT)]]></clinicalmodality>
+		<situations><![CDATA[Anger Management]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/nikkistafford]]></telehealthlink>
+		<appointments><![CDATA[nikkir@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Patty Talamini]]></fullname>
+		<email><![CDATA[patty.talamini@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LICSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Depression;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Christian Counseling;Attachment Based Family Therapy (ABFT)]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Grief/Loss/Bereavement;Health/Medical Problems]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/ptalaminilicsw]]></telehealthlink>
+		<appointments><![CDATA[patty.talamini@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Rabia Khan]]></fullname>
+		<email><![CDATA[Rabiak@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Obsessive Compulsive Disorder (OCD);Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT)]]></clinicalmodality>
+		<situations><![CDATA[Anger Management;Grief/Loss/Bereavement]]></situations>
+		<language><![CDATA[Russian]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/rabia1]]></telehealthlink>
+		<appointments><![CDATA[Rabiak@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Rosemary Sheola]]></fullname>
+		<email><![CDATA[rosemary@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Eating Disorders (Anorexia/Bulimia/Binge Eating);Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT)]]></clinicalmodality>
+		<situations><![CDATA[Anger Management;Grief/Loss/Bereavement;Health/Medical Problems;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/rsheola]]></telehealthlink>
+		<appointments><![CDATA[rosemary@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Sarah Gregoire]]></fullname>
+		<email><![CDATA[sarahg@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Medicare;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[LICSW;Rhode Island]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Bipolar Disorder;Depression;Personality Disorders]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT)]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/sarahgreg]]></telehealthlink>
+		<appointments><![CDATA[sarahg@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Sarah Hoxie]]></fullname>
+		<email><![CDATA[Shoxie@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Medicare;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 6-12;Adolescents 13-17;Adults 18-64;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LICSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Bipolar Disorder;Depression;Substance Related/Addictive Disorders;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Eye Movement Desensitization & Reprocessing (EDMR);Play Therapy]]></clinicalmodality>
+		<situations><![CDATA[Anger Management;LGBTQIA;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/sarahhoxie]]></telehealthlink>
+		<appointments><![CDATA[Shoxie@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Sarah Norrishs]]></fullname>
+		<email><![CDATA[sarahn@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 0-5;Children 6-12;Adolescents 13-17;Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Eating Disorders (Anorexia/Bulimia/Binge Eating);Schizophrenia Spectrum and Psychotic Disorders;Sexual Offenders;Substance Related/Addictive Disorders]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Eye Movement Desensitization & Reprocessing (EDMR);Attachment Based Family Therapy (ABFT);Mindfulness/Meditation;Sex Therapy/Sexual Dysfunction Treatment]]></clinicalmodality>
+		<situations><![CDATA[Adoption/Foster care;Anger Management;Divorce/Custody Disputes;Grief/Loss/Bereavement;LGBTQIA;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[http://doxy.me/sarahnorrichslmhc]]></telehealthlink>
+		<appointments><![CDATA[sarahn@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Sarah Presson]]></fullname>
+		<email><![CDATA[sarahp@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Red]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[LICSW]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Attachment Based Family Therapy (ABFT)]]></clinicalmodality>
+		<situations><![CDATA[Grief/Loss/Bereavement;LGBTQIA]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/spresson]]></telehealthlink>
+		<appointments><![CDATA[sarahp@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Shan Bishop]]></fullname>
+		<email><![CDATA[shanb@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Children 6-12;Adolescents 13-17;Adults 18-64]]></appointmenttype>
+		<license><![CDATA[Doctorate (MEd);MA Level]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Autism Spectrum Disorder/Asperger's Counseling;Depression;Eating Disorders (Anorexia/Bulimia/Binge Eating);Obsessive Compulsive Disorder (OCD);Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Dialectic Behavioral Therapy (DBT);Mindfulness/Meditation]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Grief/Loss/Bereavement;LGBTQIA;Peak Performance/Performance Anxiety;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/shanbishop]]></telehealthlink>
+		<appointments><![CDATA[shanb@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Shanti Sponder]]></fullname>
+		<email><![CDATA[Shantis@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Yellow]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Beacon;Cigna/Evernorth;Fallon;Harvard Pilgrim;Health New England;Optum;Tufts;Unicare;United Behavioral Health;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adults 18-64;Adults 65+]]></appointmenttype>
+		<license><![CDATA[LMHC]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Bipolar Disorder;Depression;Eating Disorders (Anorexia/Bulimia/Binge Eating);Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Expressive Arts Therapy (Art/Music/Dance Therapy)]]></clinicalmodality>
+		<situations><![CDATA[Academic/Occupational/Work Issues/Career;Anger Management;Domestic Violence;Ethnic/Cultural Issues;Grief/Loss/Bereavement;LGBTQIA;Self-Injurious Behaviors/Self-harm]]></situations>
+		<language><![CDATA[]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/shanti]]></telehealthlink>
+		<appointments><![CDATA[Shantis@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Amherst]]></clinicianhomebase>
+	</node>
+	<node>
+		<fullname><![CDATA[Woomendy Jean]]></fullname>
+		<email><![CDATA[jeanw@thriveworks.com]]></email>
+		<notes><![CDATA[Self-Pay $130]]></notes>
+		<priority><![CDATA[Green]]></priority>
+		<acceptedinsurance><![CDATA[Aetna;BCBS;Cigna/Evernorth;Health New England;Tufts;Wellfleet]]></acceptedinsurance>
+		<clinicianslocations><![CDATA[Online]]></clinicianslocations>
+		<appointmenttype><![CDATA[Adolescents 13-17;Adults 18-64;Adults 65+;Couples/Marriage/Relationship Counseling;Family Therapy]]></appointmenttype>
+		<license><![CDATA[MA Level]]></license>
+		<disorderdisability><![CDATA[Anxiety/Panic/Phobias;Attention-deficit Hyperactivity Disorders (ADHD/ADD);Depression;Trauma/PTSD/Acute Stress]]></disorderdisability>
+		<clinicalmodality><![CDATA[Cognitive Behavioral Therapy (CBT);Attachment Based Family Therapy (ABFT);Mindfulness/Meditation;Psychodynamic/Psychoanalytic/ Psychoanalysis]]></clinicalmodality>
+		<situations><![CDATA[]]></situations>
+		<language><![CDATA[Haitian Creole]]></language>
+		<telehealthlink><![CDATA[https://doxy.me/woomendy]]></telehealthlink>
+		<appointments><![CDATA[jeanw@thriveworks.com]]></appointments>
+		<clinicianhomebase><![CDATA[Franklin]]></clinicianhomebase>
+	</node>
+</data>
