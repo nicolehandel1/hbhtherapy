@@ -5,7 +5,9 @@
 
 	// get the header
 	//set_query_var("body_class", 'firm');
-	get_header();
+	get_header(); ?>
+
+<?php
 
 	get_template_part( 'page-template-parts/treatments/component', 'hero');
 
