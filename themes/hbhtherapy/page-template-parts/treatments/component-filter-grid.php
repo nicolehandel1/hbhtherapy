@@ -1,42 +1,42 @@
 <?php 
 
-$services = new WP_Query( array(
-      'post_type' => 'service',
+$treatments = new WP_Query( array(
+      'post_type' => 'treatment',
         'post_status' => 'publish',
         'posts_per_page' => -1,
         'orderby' => 'name',
         'order' => 'ASC',
     ));
 
-$individual = new WP_Query( array(
-    'post_type' => 'service',
+$conditions = new WP_Query( array(
+    'post_type' => 'treatment',
     'tax_query' => array(
         array (
-            'taxonomy' => 'service-type',
+            'taxonomy' => 'treatment-type',
             'field' => 'slug',
-            'terms' => 'individual',
+            'terms' => 'conditions-we-treat',
         )
     ),
 ) );
 
-$relationship = new WP_Query( array(
-    'post_type' => 'service',
+$situations = new WP_Query( array(
+    'post_type' => 'treatment',
     'tax_query' => array(
         array (
-            'taxonomy' => 'service-type',
+            'taxonomy' => 'treatment-type',
             'field' => 'slug',
-            'terms' => 'relationships',
+            'terms' => 'situations-we-address',
         )
     ),
 ) );
 
-$psychiatry = new WP_Query( array(
-    'post_type' => 'service',
+$modalities = new WP_Query( array(
+    'post_type' => 'treatment',
     'tax_query' => array(
         array (
-            'taxonomy' => 'service-type',
+            'taxonomy' => 'treatment-type',
             'field' => 'slug',
-            'terms' => 'psychiatry',
+            'terms' => 'treatments-we-offer',
         )
     ),
 ) );
@@ -46,11 +46,11 @@ $psychiatry = new WP_Query( array(
 <div class="section-content">
     <div class="filter-wrap srvpg-filter-warp">
 
-        <div class="select"><select value-group="individual" class="option-set service-filters dropdown-filters" data-width="100%">
-            <option value="*" data-filter-value="">Individual</option>
-            <option value=".individual" data-filter-value="">View All</option>
+        <div class="select"><select value-group="conditions" class="option-set service-filters dropdown-filters" data-width="100%">
+            <option value="*" data-filter-value="">Conditions We Treat</option>
+            <option value=".conditions-we-treat" data-filter-value="">View All</option>
 
-            <?php while ( $individual->have_posts() ) : $individual->the_post(); ?>
+            <?php while ( $conditions->have_posts() ) : $conditions->the_post(); ?>
 
             <option value=".<?php echo basename(get_permalink()); ?>"><?php the_field( 'service_menu_name' ); ?></option>
 
@@ -58,11 +58,23 @@ $psychiatry = new WP_Query( array(
 
         </select></div>
 
-        <div class="select"><select value-group="relationship" class="option-set service-filters dropdown-filters" data-width="100%">
-            <option value="*" data-filter-value="">Relationships</option>
-            <option value=".relationships" data-filter-value="">View All</option>
+        <div class="select"><select value-group="situations" class="option-set service-filters dropdown-filters" data-width="100%">
+            <option value="*" data-filter-value="">Situations We Address</option>
+            <option value=".situations-we-address" data-filter-value="">View All</option>
 
-            <?php while ( $relationship->have_posts() ) : $relationship->the_post(); ?>
+            <?php while ( $situations->have_posts() ) : $situations->the_post(); ?>
+
+            <option value=".<?php echo basename(get_permalink()); ?>"><?php the_field( 'service_menu_name' ); ?></option>
+
+            <?php endwhile; wp_reset_postdata(); ?>
+
+            </select></div>
+        
+        <div class="select"><select value-group="modalities" class="option-set service-filters dropdown-filters" data-width="100%">
+            <option value="*" data-filter-value="">Treatments We Offer</option>
+            <option value=".treatments-we-offer" data-filter-value="">View All</option>
+
+            <?php while ( $modalities->have_posts() ) : $modalities->the_post(); ?>
 
             <option value=".<?php echo basename(get_permalink()); ?>"><?php the_field( 'service_menu_name' ); ?></option>
 
@@ -70,23 +82,17 @@ $psychiatry = new WP_Query( array(
 
             </select></div>
 
-        <?php while ( $psychiatry->have_posts() ) : $psychiatry->the_post(); ?>
-        <div class="psychiatry-reset button-filter-wrap">
-            <button class="button-filter is-checked" data-filter=".<?php echo basename(get_permalink()); ?>"><?php the_field( 'service_menu_name' ); ?></button>
-        </div>
-        <?php endwhile; wp_reset_postdata(); ?>
-
     </div>
 </div>
 
 <div class="section-content">
     <div class="grid">
 
-        <?php while($services->have_posts()) : $services->the_post(); ?>
+        <?php while($treatments->have_posts()) : $treatments->the_post(); ?>
 
         <div class="service-item 
                 <?php echo basename(get_permalink()); ?> 
-                <?php $terms = wp_get_post_terms(get_the_id(), 'service-type');  foreach ($terms as $term) { echo $term->slug.' ';} ?>
+                <?php $terms = wp_get_post_terms(get_the_id(), 'treatment-type');  foreach ($terms as $term) { echo $term->slug.' ';} ?>
                 " data-category="transition">
 
             <div class="srv-item-img">
@@ -132,11 +138,4 @@ $filtersSelect.on( 'change', function() {
     $('.option-set').val('*');
 });
     
-$('.psychiatry-reset').on('click', 'button', function () {
-    $('.grid').isotope({
-        filter: '.psychiatry',
-    });
-    //reset the dropdowns
-    $('.option-set').val('*');
-});
 </script>

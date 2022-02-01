@@ -1861,6 +1861,15 @@ a.clinician-card-link:hover {
 /*--------------------
 Clinicians Page
 ----------------------------- */
+
+.page-template-treatments_page {
+    background-color: #f5efe9;
+}
+    
+.page-template-treatments_page .srvpg-title-wrap {
+    background-color: #edaa5c;    
+    }
+
 .page-template-clinician_page {
     background-color: #fff;
 }
@@ -2032,7 +2041,7 @@ h3.clinpage-phone {
 Home Page
 ----------------------------- */
 .page-template-blog_page {
-    background-color: #FAF8F4;
+    background-color: #f5efe9;
 }
 
 .blogpg-section-content p.search {
@@ -2077,7 +2086,7 @@ Clinicians Single
 ----------------------------- */
 
 .single-clinician {
-    background-color: #FAF8F4;
+    background-color: #f5efe9;
 }
 
 .clinician-hero-section {
@@ -2237,7 +2246,7 @@ ul.sidebar-bullets {
 Blog Single
 ----------------------------- */
 .single-post {
-    background-color: #FAF8F4;
+    background-color: #f5efe9;
 }
 
 .blog-section {
@@ -2276,7 +2285,7 @@ a.blog-author:hover {
 }
 
 .blg-info-section {
-    background-color: #FAF8F4;
+    background-color: #f5efe9;
 }
 
 .blog-info-contnt {
@@ -2318,7 +2327,7 @@ a.blog-author:hover {
 
 @media only screen and (max-width: 800px) {
     .blog-section {
-        background-color: #FAF8F4;
+        background-color: #f5efe9;
     }
     
     .blg-info-section {
@@ -2354,7 +2363,7 @@ a.blog-author:hover {
 Service & Treatment Archive Pages
 ------------------------------------ */
 .page-template-services_page {
-    background-color: #FAF8F4;
+    background-color: #f5efe9;
 }
 
 .srvpg-hero-content {

@@ -3,7 +3,7 @@
 
         <div class="single-hero-info blog-hero-info">
             
-            <a class="archive-link" href="/mental-health-services/">HBH Services</a>
+            <a class="archive-link" href="/treatment-therapy/">HBH Treatment & Therapies</a>
 
             <h2><?php the_title(); ?></h2>
 

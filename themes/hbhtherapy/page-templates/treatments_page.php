@@ -11,7 +11,7 @@
 
 	get_template_part( 'page-template-parts/treatments/component', 'hero');
 
-    get_template_part( 'page-template-parts/treatments/component', 'filter');
+    get_template_part( 'page-template-parts/treatments/component', 'filter-grid');
 
     
  	// get the footer
