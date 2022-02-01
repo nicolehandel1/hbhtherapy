@@ -11,7 +11,7 @@ $posts = new WP_Query( $args );
 ?>
 
 <div class="section-content hero-wrap">
-    <h1 class="pg-title"><?php wp_title(''); ?></h1>
+    <h1 class="pg-title"><?php the_field( 'page_title' ); ?></h1>
 </div>
 
 <div class="section-content blogpg-section-content">

@@ -171,7 +171,6 @@
 
 </style>
 
-
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <div id="page" class="site">
@@ -226,14 +225,13 @@
 
         </header><!-- #masthead -->
 
-        <script>
-            function navToggle() {
-                var x = document.getElementById("menu");
-                if (x.style.display === "flex") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "flex";
-                }
-            }
-
-        </script>
+<script>
+    function navToggle() {
+        var x = document.getElementById("menu");
+        if (x.style.display === "flex") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "flex";
+        }
+    }
+</script>

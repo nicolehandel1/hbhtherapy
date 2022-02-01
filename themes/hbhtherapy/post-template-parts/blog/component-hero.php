@@ -8,7 +8,7 @@
             <h2><?php the_title(); ?></h2>
 
             <?php if( get_field('blog_subtitle') ): ?>
-            <h1 class="blog-subtitle"><?php the_field( 'blog_subtitle' ); ?></h1>
+            <h1 class="blog-hero-subtitle"><?php the_field( 'blog_subtitle' ); ?></h1>
             <?php endif; ?>
 
             <?php if ( have_rows( 'blog_author' ) ): ?>

@@ -1,51 +1,9 @@
-<style>
-    .page-template-services_page {
-        background-color: #FAF8F4;
-    }
-    .srvpg-hero-section {
-        padding: 0px;
-        margin-bottom: -10px;
-        
-    }
-    .service-hero-info {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        width: 50%;
-        padding: 175px 75px 150px 75px;
-        background-color: #7BBEB6;
-    }
-    
-    .servicepg-info-wrap {
-        width: 50%;
-        padding: 175px 75px 75px 75px;
-    }
-    
-    .service-hero-info .pg-title {
-        text-align: right;
-        margin: 0;
-        color: #085962;
-    }
-    
-    .service-hero-info .phone {
-        width: 100%;
-        text-align: right;
-        color: #fff;
-    }
-    
-    .srvpg-summary {
-        font-size: 22px;
-        line-height: 35px;
-    }
-    
-</style>
-
 <div class="section srvpg-hero-section">
-    <div class="section-content blog-hero-content">
+    <div class="section-content srvpg-hero-content">
 
-        <div class="single-hero-info service-hero-info">
+        <div class="single-hero-info srvpg-title-wrap">
 
-            <h1 class="pg-title"><?php wp_title(''); ?></h1>
+            <h1 class="pg-title"><?php the_field( 'srv-tre-page_title' ); ?></h1>
             
             <a class="phone" href="tel:<?php the_field( 'header_phone_number_link', 'option' ); ?>"><?php the_field( 'header_phone_number', 'option' ); ?></a>
 
@@ -55,7 +13,7 @@
 
         </div>
         
-        <div class="servicepg-info-wrap">
+        <div class="srvpg-summary-wrap">
             
             <p class="srvpg-summary"><?php the_field( 'services_summary' ); ?></p>
         

@@ -7,7 +7,14 @@
  * @package HBH_Therapy
  */
 
-get_header();
+get_header(); ?>
+
+<meta property="og:title" content="<?php the_title() ?>"/>
+<meta property="og:image" content="<?php the_field( 'clinician-headshot' ); ?>"/>
+<meta property="og:url" content="<?php the_permalink(); ?>"/>
+<meta property="og:description" content=""/>
+
+<?php
 
 get_template_part( 'post-template-parts/clinicians/component', 'hero');
         

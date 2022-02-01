@@ -9,6 +9,11 @@
 
 get_header(); ?>
 
+<meta property="og:title" content="<?php the_title() ?>"/>
+<meta property="og:image" content="<?php the_field( 'blog_header_image' ); ?>"/>
+<meta property="og:url" content="<?php the_permalink(); ?>"/>
+<meta property="og:description" content=""/>
+
 <article>
 
 <?php get_template_part( 'post-template-parts/blog/component', 'hero');

@@ -236,26 +236,27 @@ button,
 select {
     text-transform: none;
     -webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;       /* Remove default arrow */
+    -moz-appearance: none;
+    appearance: none;
+    /* Remove default arrow */
     border-radius: 0px;
 }
 
 select {
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    -ms-appearance:none;
-    appearance:none;
-    outline:0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
     background-image: none;
     border: 0;
     flex: 1;
-     padding: 10px 20px;
+    padding: 10px 20px;
     color: #4D4D4D;
     font-weight: 700;
     cursor: pointer;
 }
-    
+
 select::-ms-expand {
     display: none;
 }
@@ -467,11 +468,10 @@ h2 {
     line-height: 1em;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     h2 {
-    font-size: 1.5em;
-    text-align: left;
-    padding: 10px;
+        font-size: 1.5em;
+        text-align: left;
     }
 }
 
@@ -765,21 +765,21 @@ textarea {
     -webkit-box-shadow: -2px 2px 2px -2px #085962;
     -moz-box-shadow: -2px 2px 2px -2px #085962;
 }
-    
+
 .select::after {
     content: '\25BC';
     position: absolute;
     top: 0;
     right: 0;
     padding: 0 1em;
-    cursor:pointer;
-    pointer-events:none;
-    transition:.25s all ease;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
 }
 
 .select:hover::after {
     color: #fff;
-}    
+}
 
 .button-filter-wrap {
     border: 1px solid #085962;
@@ -788,7 +788,10 @@ textarea {
     -moz-box-shadow: -2px 2px 2px -2px #085962;
 }
 
-.service-filters:hover, .button-filter:hover, .service-filters:focus, .button-filter:focus {
+.service-filters:hover,
+.button-filter:hover,
+.service-filters:focus,
+.button-filter:focus {
     background-color: #085962;
     color: #fff;
 }
@@ -1367,6 +1370,7 @@ Home Page
     .bg-home .section-content {
         flex-wrap: wrap-reverse;
     }
+
     .hero-wrap {
         margin-top: 60px;
     }
@@ -1374,7 +1378,7 @@ Home Page
     .bg-home .butterfly-img-wrap {
         width: 100%;
     }
-    
+
     .butterfly-img-wrap img {
         width: 100%;
     }
@@ -1384,7 +1388,6 @@ Home Page
         padding: 10px;
         width: 100%;
         z-index: 2;
-        margin-top: -100px;
     }
 
     .home-tagline {
@@ -1576,9 +1579,10 @@ Home Page
 
 @media only screen and (max-width: 800px) {
     .hmsrv-grid-item {
-    padding: 5px 30px;
-    font-size: 14px;
-}
+        padding: 5px 30px;
+        font-size: 14px;
+    }
+
     .hmsrv-grid-wrap h2 {
         font-size: 1.5em;
         text-align: left;
@@ -1797,9 +1801,10 @@ a.clinician-card-link:hover {
         padding-right: 60px;
         width: 65%;
     }
+
     .testimonial-img-wrap {
-    width: 30%;
-}
+        width: 30%;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -1838,8 +1843,8 @@ a.clinician-card-link:hover {
 
 /*---- Call to Action Section ------------*/
 
-.home-calltoaction {
-    }
+.home-calltoaction {}
+
 .home-call-btom {
     position: inherit;
     margin-top: 0;
@@ -1847,10 +1852,11 @@ a.clinician-card-link:hover {
     width: 100%;
     padding: 25px 50px 100px 50px;
     text-align: center;
-    }
-    .home-call-btom h3 {
-        width: 100%;
-    }
+}
+
+.home-call-btom h3 {
+    width: 100%;
+}
 
 /*--------------------
 Clinicians Page
@@ -2011,13 +2017,15 @@ h3.clinpage-phone {
 }
 
 @media only screen and (max-width: 700px) {
+
     .grid-sizer,
     .grid-item {
         width: 100%;
     }
+
     .filters {
-    margin: 10px;
-}
+        margin: 10px;
+    }
 }
 
 /*--------------------
@@ -2204,10 +2212,6 @@ ul.sidebar-bullets {
         text-align: left;
     }
 
-    a.archive-link {
-        text-align: center;
-    }
-
     .clin-info-content {
         flex-wrap: wrap-reverse;
     }
@@ -2255,6 +2259,12 @@ Blog Single
     padding-right: 50px;
 }
 
+.blog-hero-subtitle {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+}
+
 a.blog-author {
     color: #4d4d4d;
     text-decoration: none;
@@ -2285,11 +2295,16 @@ a.blog-author:hover {
 
 .blog-subtitle {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 .share-icons {
     margin: 15px 0 40px 0;
+}
+
+.share-icons a {
+    text-decoration: none;
 }
 
 .share-icons .fab {
@@ -2302,6 +2317,10 @@ a.blog-author:hover {
 }
 
 @media only screen and (max-width: 800px) {
+    .blog-section {
+        background-color: #FAF8F4;
+    }
+    
     .blg-info-section {
         background-color: #fff;
     }
@@ -2309,10 +2328,16 @@ a.blog-author:hover {
     .blog-hero-img {
         width: 100%;
     }
+    
+    .blog-hero-subtitle {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+    }
 
     .blog-hero-info {
         width: 100%;
-        padding: 0;
+        padding: 0 10px;
     }
 
     .blog-info-contnt .sidebar {
@@ -2323,8 +2348,214 @@ a.blog-author:hover {
     .blog-date {
         text-align: left !important;
     }
+}
 
-    .blog-subtitle {
-        font-size: 25px;
+/*------------------------
+Service & Treatment Archive Pages
+------------------------------------ */
+.page-template-services_page {
+    background-color: #FAF8F4;
+}
+
+.srvpg-hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.srvpg-hero-section {
+    padding: 0px;
+    margin-bottom: -10px;
+
+}
+
+.srvpg-title-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 50%;
+    padding: 175px 75px 150px 75px;
+    background-color: #7BBEB6;
+}
+
+.srvpg-summary-wrap {
+    width: 50%;
+    padding: 175px 75px 75px 75px;
+}
+
+.srvpg-title-wrap .pg-title {
+    text-align: right;
+    margin: 0;
+    color: #085962;
+}
+
+.srvpg-title-wrap .phone {
+    width: 100%;
+    text-align: right;
+    color: #fff;
+}
+
+.srvpg-summary {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.srvpg-filter-warp {
+    width: auto;
+}
+
+.select {
+    width: 33.33333%;
+}
+
+.select select {
+    font-weight: 700;
+}
+
+.button-filter-wrap {
+    width: 33.33333%;
+    border: 1px solid #085962;
+    box-shadow: -2px 2px 2px -2px #085962;
+    -webkit-box-shadow: -2px 2px 2px -2px #085962;
+    -moz-box-shadow: -2px 2px 2px -2px #085962;
+}
+
+.service-filters:hover,
+.button-filter:hover,
+.service-filters:focus,
+.button-filter:focus {
+    background-color: #085962;
+    color: #fff;
+}
+
+.button-filter {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    color: #4D4D4D;
+    font-weight: 700;
+    text-align: left;
+    border: 0px;
+    border-radius: 0px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.service-item {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 25px;
+    margin: 25px;
+}
+
+.srv-item-img {
+    width: 40%;
+}
+
+.srvpg-img {
+    width: 100%;
+}
+
+.srv-item-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+    padding: 10px 75px;
+}
+
+a.srv-title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #008587;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1300px) {
+    .srvpg-title-wrap {
+        width: 40%;
+        justify-content: flex-end;
+    }
+
+    .srvpg-summary-wrap {
+        width: 60%;
+    }
+
+    .srvpg-title-wrap .pg-title {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .srvpg-title-wrap {
+        width: 100%;
+        justify-content: flex-start;
+        padding: 75px;
+    }
+
+    .srvpg-summary-wrap {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .srvpg-title-wrap .pg-title {
+        text-align: left;
+    }
+
+    .srvpg-title-wrap .phone {
+        text-align: left;
+        width: 85%;
+    }
+
+    .srvpg-summary {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .service-item {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .srv-item-img {
+        width: 100%;
+    }
+
+    .srv-item-info {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    a.srv-title {
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .srvpg-title-wrap {
+        justify-content: center;
+        padding: 75px 20px;
+    }
+
+    .select {
+        width: 100%;
+    }
+
+    .button-filter-wrap {
+        width: 100%;
+        height: 3em;
+        line-height: 3;
+    }
+
+    a.srv-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .srv-item-info p {
+        font-size: 16px;
+        line-height: 26px;
     }
 }

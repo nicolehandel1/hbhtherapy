@@ -34,6 +34,22 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
                         $out[] = '<li>' .$insurance->name .'</li>';
                     }
                     echo join( $out ); } ?></ul>
+            
+            <p class="clinician-subtitle">Share</p>
+            <hr>
+            <div class="share-icons">
+                <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>" target="_blank">
+                    <i class="fab fa-facebook-f" alt="Facebook share link"></i> 
+                </a>
+                
+                <a href="https://twitter.com/share?url=<?php the_permalink(); ?>&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+                    <i class="fab fa-twitter" alt="Twitter share link"></i>
+                </a>
+                
+                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?php the_permalink(); ?>" target="_blank">
+                    <i class="fab fa-linkedin-in" alt="LinkedIn share link"></i>
+                </a>
+            </div>
 
             <?php if ($location) { $out = array(); ?>
             <p class="clinician-subtitle">For <?php foreach ($location as $location) { $out[] = '' .$location->name .''; } echo join( ' & ',$out ); } ?> Appointments</p>

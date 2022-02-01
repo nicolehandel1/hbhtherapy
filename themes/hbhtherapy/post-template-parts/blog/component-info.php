@@ -42,9 +42,17 @@
             <p class="clinician-subtitle">Share</p>
             <hr>
             <div class="share-icons">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>" target="_blank">
+                    <i class="fab fa-facebook-f" alt="Facebook share link"></i> 
+                </a>
+                
+                <a href="https://twitter.com/share?url=<?php the_permalink(); ?>&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+                    <i class="fab fa-twitter" alt="Twitter share link"></i>
+                </a>
+                
+                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?php the_permalink(); ?>" target="_blank">
+                    <i class="fab fa-linkedin-in" alt="LinkedIn share link"></i>
+                </a>
             </div>
             
             <p class="clinician-subtitle">Appointments</p>
