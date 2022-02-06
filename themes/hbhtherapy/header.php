@@ -39,7 +39,7 @@
             <div class="nav-container">
                 <div class="hbh-nav-container">
                     <div class="site-branding">
-                        <a href="/"><img src="<?php the_field( 'header_desktop_logo', 'option' ); ?>" data-rjs="2" alt="HBH Loho"></a>
+                        <a href="/"><img src="<?php the_field( 'header_desktop_logo', 'option' ); ?>" data-rjs="2" alt="HBH Logo"></a>
                     </div><!-- .site-branding -->
 
                     <a class="phone" href="tel:<?php the_field( 'header_phone_number_link', 'option' ); ?>"><?php the_field( 'header_phone_number', 'option' ); ?></a>
@@ -88,21 +88,3 @@
                 </div>
 
         </header><!-- #masthead -->
-
-<script>
-    function navToggle() {
-        var x = document.getElementById("menu");
-        var y = document.getElementById("menu-content");
-        if (x.style.width === "100vw") {
-            x.style.width = "0px";
-            x.style.opacity = "0";
-            y.style.opacity = "0";
-            y. style.transitionDelay = "0s"
-        } else {
-            x.style.width = "100vw";
-            x.style.opacity = "1";
-            y.style.opacity = "1";
-            y. style.transitionDelay = ".5s"
-        }
-    }
-</script>

@@ -4,7 +4,22 @@
  * Handles toggling the navigation menu for small screens and enables TAB key
  * navigation support for dropdown menus.
  */
-/* Open when someone clicks on the span element */
+/* Nav Toggle */
+function navToggle() {
+        var x = document.getElementById("menu");
+        var y = document.getElementById("menu-content");
+        if (x.style.width === "100vw") {
+            x.style.width = "0px";
+            x.style.opacity = "0";
+            y.style.opacity = "0";
+            y. style.transitionDelay = "0s"
+        } else {
+            x.style.width = "100vw";
+            x.style.opacity = "1";
+            y.style.opacity = "1";
+            y. style.transitionDelay = ".5s"
+        }
+    }
 
 //Show/Hide Description ->homepage services
 function showOverlay(x) {

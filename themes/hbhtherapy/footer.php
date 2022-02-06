@@ -16,7 +16,7 @@
         <div class="section-content footer-section">
 
             <div class="footer-content">
-                <div class="footer-logo-container"><img class="footer-logo" src="/wp-content/uploads/2022/01/Short-Logo.png" alt="HBH Logo"></div>
+                <div class="footer-logo-container"><img class="footer-logo" src="<?php the_field( 'footer_logo', 'option' ); ?>" alt="HBH Logo"></div>
 
                 <!-- Column One -->
                 <div class="footer-container">

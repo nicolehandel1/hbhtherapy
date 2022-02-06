@@ -3,6 +3,30 @@
     "title": "Clinicians Page",
     "fields": [
         {
+            "key": "field_620056b0d2311",
+            "label": "Background Image",
+            "name": "clinicias_background_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_61f58e6e3b1aa",
             "label": "Page Title",
             "name": "clinician_page_title",
@@ -124,5 +148,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1643692256
+    "modified": 1644189390
 }
