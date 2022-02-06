@@ -27,36 +27,47 @@
 </head>
 
 <style>
+    .menu-right {
+        direction: rtl;
+
+    }
     #menu {
-        display: none;
+        display: flex;
+        height: 100vh;
+        width: 0px;
+        transition: 1s ease;
+    }
+    
+    .menu-section-wrap {
+        position: fixed;
+        justify-content: center;
+        overflow: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+        background-color: #008587;
+        z-index: 32;
     }
 
     .menu-content {
-        position: fixed;
         margin: 0 auto;
         max-width: 1680px;
         width: 100%;
-        z-index: 30;
-    }
-
-    .menu-wrap {
-        float: right;
-        height: 100vh;
-        width: 100vw;
-        background-color: #008587;
-        background-image: url('http://hbhtherapy.local/wp-content/uploads/2022/01/Menu-Butterfly@2x.png');
+        background-image: url(http://hbhtherapy.local/wp-content/uploads/2022/01/Menu-Butterfly@2x.png);
         background-repeat: no-repeat;
         background-size: contain;
-        padding: 20px;
     }
 
-    @media only screen and (max-width: 700px) {
-
-        .menu-wrap {
-            width: 100%;
-        }
-
+    .menu {
+        float: right;
+        padding: 15px;
     }
+    
+    #menu-content {
+        opacity: 0;
+        transition: .5s ease;
+        transition-delay: .5s;
+    }
+
 
     .hamburger {
         float: right;
@@ -80,59 +91,33 @@
     }
 
     .one-active {
-        background-color: #6f63ff;
+        background-color: #F4CC9D;
         transform: translateY(13px) rotate(45deg);
     }
 
     .two-active {
+        background-color: #F4CC9D;
         display: none;
     }
 
     .three-active {
-        background-color: #6f63ff;
+        background-color: #F4CC9D;
         transform: translateY(-9px) rotate(135deg);
     }
 
-    .close {
-        position: absolute;
-        right: 32px;
-        top: 32px;
-        width: 32px;
-        height: 32px;
-        opacity: 1;
-    }
+    .hbhmenu {
 
-    .close:hover {
-        opacity: 0.3;
-    }
-
-    .close:before,
-    .close:after {
-        position: absolute;
-        left: 15px;
-        content: ' ';
-        height: 40px;
-        width: 2px;
-        background-color: #F4CC9D;
-    }
-
-    .close:before {
-        transform: rotate(45deg);
-    }
-
-    .close:after {
-        transform: rotate(-45deg);
     }
 
     .hbhmenu ul {
         list-style: none;
-        margin: 65px 20px 0 20px;
+        margin: 65px 0 0 0;
     }
 
     .hbhmenu li {
         margin-bottom: 2em;
         font-family: acumin-pro, sans-serif;
-        font-weight: 900;
+        font-weight: 800;
         font-style: normal;
         font-size: 1.5em;
         text-align: right;
@@ -190,7 +175,7 @@
                         <a href="/"><img src="<?php the_field( 'header_desktop_logo', 'option' ); ?>" data-rjs="2" alt="HBH Loho"></a>
                     </div><!-- .site-branding -->
 
-                    <a class="phone" href="tel:<?php the_field( 'header_phone_number_link', 'option' ); ?>">test<?php the_field( 'header_phone_number', 'option' ); ?></a>
+                    <a class="phone" href="tel:<?php the_field( 'header_phone_number_link', 'option' ); ?>"><?php the_field( 'header_phone_number', 'option' ); ?></a>
 
                     <div class="site-menu">
                         <nav id="myNav" class="main-navigation">
@@ -208,10 +193,17 @@
             </div>
 
             <!-- Overlay content -->
-            <div class="section-wrapper" id="menu">
+            <div class="menu-right">
+            <div class="menu-section-wrap" id="menu">
                 <div class="menu-content">
-                    <div class="menu-wrap">
-                        <a href="javascript:void(0);" class="close" onclick="navToggle()"></a>
+                    <div class="menu" id="menu-content">
+                        <a href="javascript:void(0);" class="menu-btn" onclick="navToggle()">
+                                <div class="hamburger">
+                                    <div class="nav-bar one-active"></div>
+                                    <div class="nav-bar two-active"></div>
+                                    <div class="nav-bar three-active"></div>
+                                </div>
+                            </a>
                         <div class="hbhmenu">
                             <?php
                         wp_nav_menu(
@@ -225,16 +217,22 @@
                     </div>
                 </div>
             </div>
+                </div>
 
         </header><!-- #masthead -->
 
 <script>
     function navToggle() {
         var x = document.getElementById("menu");
-        if (x.style.display === "flex") {
-            x.style.display = "none";
+        var y = document.getElementById("menu-content");
+        if (x.style.width === "100vw") {
+            x.style.width = "0px";
+            y.style.opacity = "0";
+            y. style.transitionDelay = "0s"
         } else {
-            x.style.display = "flex";
+            x.style.width = "100vw";
+            y.style.opacity = "1";
+            y. style.transitionDelay = ".5s"
         }
     }
 </script>

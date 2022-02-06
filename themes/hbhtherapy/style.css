@@ -1870,6 +1870,10 @@ Clinicians Page
     background-color: #edaa5c;    
     }
 
+.page-template-treatments_page .pg-title {
+    color: #008587 !important;   
+    }
+
 .page-template-clinician_page {
     background-color: #fff;
 }
