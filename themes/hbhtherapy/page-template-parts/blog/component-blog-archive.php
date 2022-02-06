@@ -32,7 +32,11 @@ $posts = new WP_Query( $args );
 <div class="section-content">
     <div class="grid">
 
-        <?php if ( $posts->have_posts() ) :  while( $posts->have_posts() ) : $posts->the_post() ?>
+        <?php if ( $posts->have_posts() ) :  while( $posts->have_posts() ) : $posts->the_post() ;
+            $imageID = get_field('blog_header_image');
+            $image = wp_get_attachment_image_src( $imageID, 'full' ); 
+            $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true); 
+            ?>
 
         <div class="grid-item blog-grid-item" data-category="transition">
 
@@ -40,7 +44,7 @@ $posts = new WP_Query( $args );
 
                 <a class="" href="<?php the_permalink(); ?>">
 
-                    <img class="clinician-single-headshot" src="<?php the_field( 'blog_header_image' ); ?>" data-rjs="2" alt="" />
+                    <img class="clinician-single-headshot" src="<?php echo $image[0]; ?>" data-rjs="2" alt="<?php echo $alt_text; ?>" />
 
                     <h3><?php the_title() ?></h3>
 

@@ -929,6 +929,149 @@ a.btn {
     justify-content: flex-end;
 }
 
+.menu-right {
+    direction: rtl;
+
+}
+
+#menu {
+    display: flex;
+    height: 100vh;
+    width: 0px;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.menu-section-wrap {
+    position: fixed;
+    justify-content: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 100vw;
+    background-color: #008587;
+    z-index: 32;
+}
+
+.menu-content {
+    margin: 0 auto;
+    max-width: 1680px;
+    width: 100%;
+    background-image: url(http://hbhtherapy.local/wp-content/uploads/2022/01/Menu-Butterfly@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu {
+    width: 70%;
+    padding: 15px;
+}
+
+#menu-content {
+    opacity: 0;
+    transition: .5s ease;
+    transition-delay: .5s;
+}
+
+.menu-label {
+    color: #008587;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.hamburger {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    justify-content: space-between;
+    margin: 1em 1em;
+    z-index: 3;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.nav-bar {
+    width: 40px;
+    height: 2px;
+    background-color: #008587;
+}
+
+.one-active {
+    background-color: #F4CC9D;
+    transform: translateY(13px) rotate(45deg);
+}
+
+.two-active {
+    background-color: #F4CC9D;
+    display: none;
+}
+
+.three-active {
+    background-color: #F4CC9D;
+    transform: translateY(-9px) rotate(135deg);
+}
+
+.hbhmenu {}
+
+.hbhmenu ul {
+    list-style: none;
+    margin: 65px 0 0 0;
+}
+
+.hbhmenu li {
+    margin-bottom: 2em;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.hbhmenu a {
+    color: #F4CC9D;
+    text-decoration: none;
+}
+
+.hbhmenu a:hover {
+    color: #fff !important;
+}
+
+.hbhmenu a:visited {
+    color: #F4CC9D;
+}
+
+.nav-container a.phone {
+    margin-bottom: 0px;
+    margin-right: 83px;
+}
+
+@media only screen and (max-width: 800px) {
+    .bg-clinicians .butterfly-img-wrap {
+        margin-top: 47px;
+    }
+
+    .nav-container {
+        height: 3.5rem;
+    }
+
+    .nav-container a.phone {
+        margin: 0px 50px;
+        letter-spacing: 0;
+        font-size: 14px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu-label {
+        display: none;
+    }
+}
+
 .main-navigation {
     display: block;
     width: 100%;
@@ -1507,7 +1650,7 @@ Home Page
     align-items: center;
     margin: 10px;
     padding: 10px 30px;
-    background-color: #fff;
+    background-color: #FAF8F4;
     box-shadow: -2px 2px 2px -2px #085962;
     -webkit-box-shadow: -2px 2px 2px -2px #085962;
     -moz-box-shadow: -2px 2px 2px -2px #085962;
@@ -1865,14 +2008,14 @@ Clinicians Page
 .page-template-treatments_page {
     background-color: #f5efe9;
 }
-    
+
 .page-template-treatments_page .srvpg-title-wrap {
-    background-color: #edaa5c;    
-    }
+    background-color: #edaa5c;
+}
 
 .page-template-treatments_page .pg-title {
-    color: #008587 !important;   
-    }
+    color: #008587 !important;
+}
 
 .page-template-clinician_page {
     background-color: #fff;
@@ -2139,9 +2282,8 @@ a.archive-link:hover {
 
 a.phone {
     display: block;
-    color: #008587;
+    color: #085962;
     font-weight: 800;
-    letter-spacing: 2px;
     margin-bottom: 20px;
     text-decoration: none;
     white-space: nowrap;
@@ -2333,7 +2475,7 @@ a.blog-author:hover {
     .blog-section {
         background-color: #f5efe9;
     }
-    
+
     .blg-info-section {
         background-color: #fff;
     }
@@ -2341,7 +2483,7 @@ a.blog-author:hover {
     .blog-hero-img {
         width: 100%;
     }
-    
+
     .blog-hero-subtitle {
         font-weight: 300;
         font-size: 20px;

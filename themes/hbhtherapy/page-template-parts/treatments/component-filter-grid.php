@@ -88,7 +88,11 @@ $modalities = new WP_Query( array(
 <div class="section-content">
     <div class="grid">
 
-        <?php while($treatments->have_posts()) : $treatments->the_post(); ?>
+        <?php while($treatments->have_posts()) : $treatments->the_post(); 
+            $imageID = get_field('blog_header_image');
+            $image = wp_get_attachment_image_src( $imageID, 'full' ); 
+            $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true); 
+            ?>
 
         <div class="service-item 
                 <?php echo basename(get_permalink()); ?> 
@@ -96,7 +100,7 @@ $modalities = new WP_Query( array(
                 " data-category="transition">
 
             <div class="srv-item-img">
-                <img class="srvpg-img" src="<?php the_field( 'blog_header_image' ); ?>" data-rjs="2" alt="" />
+                <img class="srvpg-img" src="<?php echo $image[0]; ?>" data-rjs="2" alt="<?php echo $alt_text; ?>" />
             </div>
 
             <div class="srv-item-info">

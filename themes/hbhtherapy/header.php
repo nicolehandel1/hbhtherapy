@@ -26,140 +26,7 @@
     <?php wp_head(); ?>
 </head>
 
-<style>
-    .menu-right {
-        direction: rtl;
-
-    }
-    #menu {
-        display: flex;
-        height: 100vh;
-        width: 0px;
-        transition: 1s ease;
-    }
-    
-    .menu-section-wrap {
-        position: fixed;
-        justify-content: center;
-        overflow: hidden;
-        overflow-y: scroll;
-        width: 100vw;
-        background-color: #008587;
-        z-index: 32;
-    }
-
-    .menu-content {
-        margin: 0 auto;
-        max-width: 1680px;
-        width: 100%;
-        background-image: url(http://hbhtherapy.local/wp-content/uploads/2022/01/Menu-Butterfly@2x.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-
-    .menu {
-        float: right;
-        padding: 15px;
-    }
-    
-    #menu-content {
-        opacity: 0;
-        transition: .5s ease;
-        transition-delay: .5s;
-    }
-
-
-    .hamburger {
-        float: right;
-        display: flex;
-        flex-direction: column;
-        height: 25px;
-        justify-content: space-between;
-        margin: 1em 1em;
-        z-index: 3;
-    }
-
-    .hamburger:hover {
-        cursor: pointer;
-        opacity: 0.3;
-    }
-
-    .nav-bar {
-        width: 40px;
-        height: 2px;
-        background-color: #008587;
-    }
-
-    .one-active {
-        background-color: #F4CC9D;
-        transform: translateY(13px) rotate(45deg);
-    }
-
-    .two-active {
-        background-color: #F4CC9D;
-        display: none;
-    }
-
-    .three-active {
-        background-color: #F4CC9D;
-        transform: translateY(-9px) rotate(135deg);
-    }
-
-    .hbhmenu {
-
-    }
-
-    .hbhmenu ul {
-        list-style: none;
-        margin: 65px 0 0 0;
-    }
-
-    .hbhmenu li {
-        margin-bottom: 2em;
-        font-family: acumin-pro, sans-serif;
-        font-weight: 800;
-        font-style: normal;
-        font-size: 1.5em;
-        text-align: right;
-    }
-
-    .hbhmenu a {
-        color: #F4CC9D;
-        text-decoration: none;
-    }
-
-    .hbhmenu a:hover {
-        color: #fff !important;
-    }
-
-    .hbhmenu a:visited {
-        color: #F4CC9D;
-    }
-
-    .nav-container a.phone {
-        margin-bottom: 0px;
-        margin-right: 83px;
-    }
-
-    @media only screen and (max-width: 800px) {
-        .bg-clinicians .butterfly-img-wrap {
-            margin-top: 47px;
-        }
-
-        .nav-container {
-            height: 3.5rem;
-        }
-
-        .nav-container a.phone {
-            margin: 0px 50px;
-            letter-spacing: 0;
-            font-size: 14px;
-        }
-    }
-
-</style>
-
-<body <?php body_class(); ?>>
+    <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <div id="page" class="site">
         <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'hbhtherapy' ); ?></a>
@@ -177,9 +44,10 @@
 
                     <a class="phone" href="tel:<?php the_field( 'header_phone_number_link', 'option' ); ?>"><?php the_field( 'header_phone_number', 'option' ); ?></a>
 
-                    <div class="site-menu">
+                    <div class="site-menu" href="javascript:void(0);"  onclick="navToggle()">
+                        <p class="menu-label">menu</p>
                         <nav id="myNav" class="main-navigation">
-                            <a href="javascript:void(0);" class="menu-btn" onclick="navToggle()">
+                            <a class="menu-btn" >
                                 <div class="hamburger">
                                     <div class="nav-bar one"></div>
                                     <div class="nav-bar two"></div>
@@ -227,10 +95,12 @@
         var y = document.getElementById("menu-content");
         if (x.style.width === "100vw") {
             x.style.width = "0px";
+            x.style.opacity = "0";
             y.style.opacity = "0";
             y. style.transitionDelay = "0s"
         } else {
             x.style.width = "100vw";
+            x.style.opacity = "1";
             y.style.opacity = "1";
             y. style.transitionDelay = ".5s"
         }

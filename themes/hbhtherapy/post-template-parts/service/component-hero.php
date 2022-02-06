@@ -1,3 +1,9 @@
+<?php 
+$imageID = get_field('blog_header_image'); 
+$image = wp_get_attachment_image_src( $imageID, 'full' ); 
+$alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true); 
+?>
+
 <div class="section hero-wrap blog-section">
     <div class="section-content blog-hero-content">
 
@@ -46,7 +52,7 @@
         </div>
         
         <div class="single-clinician-heroimg blog-hero-img">
-            <img class="clinician-single-headshot" src="<?php the_field( 'blog_header_image' ); ?>" data-rjs="2" alt="" />
+            <img class="clinician-single-headshot" src="<?php echo $image[0]; ?>" data-rjs="2" alt="<?php echo $alt_text; ?>" />
         </div>
 
     </div>
