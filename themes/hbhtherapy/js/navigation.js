@@ -17,7 +17,7 @@ function navToggle() {
             x.style.width = "100vw";
             x.style.opacity = "1";
             y.style.opacity = "1";
-            y. style.transitionDelay = ".5s"
+            y. style.transitionDelay = ".3s"
         }
     }
 
