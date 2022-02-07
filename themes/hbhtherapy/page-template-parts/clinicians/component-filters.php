@@ -47,7 +47,7 @@ $services = get_terms( array(
 
             <p class="search">
                 <input type="text" class="quicksearch" placeholder="Search..." />
-                <img src="/wp-content/uploads/2022/01/Search.png" data-rjs="2" alt="search icon" />
+                <img src="<?php the_field( 'search_icon', 'option' ); ?>" data-rjs="2" alt="search icon" />
             </p>
 
         </div>
