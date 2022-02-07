@@ -944,6 +944,7 @@ a.btn {
 
 .menu-section-wrap {
     position: fixed;
+    top: 0;
     justify-content: center;
     overflow: hidden;
     overflow-y: scroll;

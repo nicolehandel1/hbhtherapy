@@ -300,7 +300,11 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "post_type": "",
+                            "post_type": [
+                                "post",
+                                "service",
+                                "treatment"
+                            ],
                             "taxonomy": "",
                             "allow_null": 0,
                             "allow_archives": 1,
@@ -790,5 +794,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1644188941
+    "modified": 1644196976
 }
