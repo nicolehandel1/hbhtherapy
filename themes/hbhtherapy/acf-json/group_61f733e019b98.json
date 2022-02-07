@@ -69,7 +69,6 @@
         "comments",
         "revisions",
         "author",
-        "featured_image",
         "categories",
         "tags",
         "send-trackbacks"
@@ -77,5 +76,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1643692685
+    "modified": 1644196516
 }

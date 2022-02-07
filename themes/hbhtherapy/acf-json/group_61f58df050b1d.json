@@ -141,12 +141,11 @@
         "comments",
         "revisions",
         "author",
-        "featured_image",
         "tags",
         "send-trackbacks"
     ],
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1644189390
+    "modified": 1644196474
 }
