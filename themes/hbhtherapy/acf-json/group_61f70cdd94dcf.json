@@ -37,11 +37,11 @@
             "return_format": "id",
             "preview_size": "large",
             "library": "all",
-            "min_width": "",
-            "min_height": "",
+            "min_width": 670,
+            "min_height": 670,
             "min_size": "",
-            "max_width": "",
-            "max_height": "",
+            "max_width": 675,
+            "max_height": 675,
             "max_size": "",
             "mime_types": ""
         },
@@ -360,5 +360,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1644183484
+    "modified": 1644195186
 }
