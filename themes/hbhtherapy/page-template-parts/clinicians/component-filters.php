@@ -17,10 +17,10 @@ $services = get_terms( array(
 
     <div class="filters-content">
 
-        <?php if ( have_rows( 'clinicians_calltoact_button' ) ) :  while ( have_rows( 'clinicians_calltoact_button' ) ) : the_row(); ?>
-        <h4><?php the_sub_field( 'button_heading' ); ?></h4>
-        <div class="filter-wrap"><a class="btn" href="<?php the_sub_field( 'button_link' ); ?>" target="_blank"><?php the_sub_field( 'button_label' ); ?></a></div>
-        <?php endwhile;  endif; ?>
+        <?php //if ( have_rows( 'clinicians_calltoact_button' ) ) :  while ( have_rows( 'clinicians_calltoact_button' ) ) : the_row(); ?>
+        <!---<h4><?php //the_sub_field( 'button_heading' ); ?></h4>
+        <div class="filter-wrap"><a class="btn" href="<?php the_sub_field( 'button_link' ); ?>" target="_blank"><?php the_sub_field( 'button_label' ); ?></a></div> --->
+        <?php //endwhile;  endif; ?>
         
         <div class="filter-wrap">
             <div class="filters">
