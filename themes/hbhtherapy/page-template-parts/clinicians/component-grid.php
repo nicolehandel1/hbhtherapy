@@ -2,6 +2,12 @@
     .clinician-card-name {
         hyphens: none
     }
+    
+    .cpage-btn {
+       margin-top: 10px; 
+        width: 100%;
+    }
+    
 </style>
 <?php /**
  * Setup query to show the ‘services’ post type with ‘8’ posts.
@@ -43,8 +49,7 @@
                     <?php $terms = wp_get_post_terms(get_the_id(), 'clinician-services');  foreach ($terms as $term) { echo $term->slug.' ';} ?> 
                     <?php $terms = wp_get_post_terms(get_the_id(), 'clinician-insurance');  foreach ($terms as $term) { echo $term->slug.' ';} ?>" data-category="transition">
 
-            <a href="<?php the_permalink(); ?>">
-                <div class="clinician-card-container">
+            <div class="clinician-card-container">
                 <img src="<?php the_field( 'clinician-headshot' ); ?>" alt="<?php the_title( ); ?> Headshot" class="clinician-card-image">
                 <div class="clinician-card-overlay">
                     <div class="clinician-card-info">
@@ -60,9 +65,8 @@
                         
                     </div>
                 </div>
-                </div>
-            </a>
-            <a class="btn <?php $terms = wp_get_post_terms(get_the_id(), 'clinician-color');  foreach ($terms as $term) { echo $term->slug.' ';} ?>" href="<?php the_field( 'clinician-book_now_link' ); ?>" target="_blank">
+            </div>
+            <a class="btn cpage-btn <?php $terms = wp_get_post_terms(get_the_id(), 'clinician-color');  foreach ($terms as $term) { echo $term->slug.' ';} ?>" href="<?php the_field( 'clinician-book_now_link' ); ?>" target="_blank">
                             <?php the_field( 'clinician_button_label', 'option' ); ?>
                         </a>
         </div>
