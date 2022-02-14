@@ -8,7 +8,9 @@
     }
     
     .covid-sum {
+        text-align: center;
         color: #fff;
+        margin: auto;
     }
 </style>
 
