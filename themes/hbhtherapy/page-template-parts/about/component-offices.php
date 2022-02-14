@@ -12,7 +12,7 @@
     #offices {
         padding-top: 0px;
     }
-    
+
     .abt-map {
         margin: auto;
     }
@@ -68,7 +68,7 @@
     #map li:hover:after {
         border-top: 2em solid #F7931E;
     }
-    
+
     .pinhover {
         background-color: #76559A !important;
         border-color: #F7931E !important;
@@ -109,6 +109,11 @@
         width: 30%;
     }
 
+    .open .btn {
+        margin-top: 5px;
+        transition: .25s ease;
+    }
+
     .location-card h3 {
         font-weight: 800;
         font-size: 1.5em;
@@ -117,6 +122,12 @@
 
     .location-card .btn {
         width: 100%;
+    }
+
+    @media only screen and (min-width: 1300px) {
+        .open .btn {
+            margin-top: 25px;
+        }
     }
 
     @media only screen and (max-width: 1300px) {
