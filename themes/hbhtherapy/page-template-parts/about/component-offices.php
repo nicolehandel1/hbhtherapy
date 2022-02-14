@@ -142,7 +142,7 @@
         }
 
         .location-card {
-            width: 100%;
+            width: 44%;
         }
 
         .open {
@@ -164,6 +164,7 @@
         }
 
         .location-card {
+            width: 100%;
             background-color: rgba(255, 255, 255, 1);
         }
     }
