@@ -69,6 +69,15 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -2027,7 +2036,7 @@ Clinicians Page
     width: 40%;
 }
 
-.bg-clinicians {
+.bg-clinicians, .bg-about {
     display: none;
 }
 
@@ -2714,4 +2723,55 @@ a.srv-title {
         font-size: 16px;
         line-height: 26px;
     }
+}
+
+/*--------------------
+About Page
+----------------------------- */
+
+.bg-clinicians, .bg-about {
+    display: none;
+}
+
+
+.page-template-about_page .bg-about {
+    display: flex;
+}
+
+.bg-about .butterfly-img-wrap {
+    margin-top: 10px;
+    width: 40%;
+}
+
+.bg-about .section-content {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    z-index: -1;
+}
+
+.bg-about img {
+    opacity: .3;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+    }
+
+.abt-sum {
+    padding: 0 0 60px 0;
+    width: 60%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1300px) {
+    .abt-sum {
+    width: 80%;
+}
+@media only screen and (max-width: 800px) {
+    .bg-about .butterfly-img-wrap {
+        display: none;
+    }
+    .abt-sum {
+    width: 100%;
+    padding: 0 10px 60px 10px;
+}
 }
