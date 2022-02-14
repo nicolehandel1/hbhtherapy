@@ -68,6 +68,16 @@
     #map li:hover:after {
         border-top: 2em solid #F7931E;
     }
+    
+    .pinhover {
+        background-color: #76559A !important;
+        border-color: #F7931E !important;
+        transform: translateX(-1em) translateY(-3.6em) !important;
+    }
+
+    .pinhover:after {
+        border-top: 2em solid #F7931E !important;
+    }
 
     .locations-wrap {
         display: flex;
@@ -163,6 +173,7 @@
                 <h3>Amherst</h3>
                 <a class="phone" href="tel:4136344805">(413) 634-4805</a>
                 <p class="blog-author">21 & 29 Pray St<br>Amherst, MA 01002</p>
+                <p>Monday - Friday 8:00AM - 7:00PM</p>
                 <a class="btn" href="">Learn More</a>
             </div>
 
@@ -190,43 +201,3 @@
 
     </div>
 </div>
-
-<script>
-    
-jQuery(document).ready(function () {
-  
-    $(window).scroll(function() {    
-    if ($(this).scrollTop() > 50) {
-        $(".abtsection").addClass("abtcolor");
-    } else {
-        $(".abtsection").removeClass("abtcolor");
-    }
-});
-    
- $("#westSpringfield").on('click', function(){
-    $(".westspring").addClass('open').siblings().removeClass('open');
- })
-    
-$("#amherst").on('click', function(){
-    $(".amherst").addClass('open').siblings().removeClass('open');
- })
-    
-$("#wilbraham").on('click', function(){
-    $(".wilbraham").addClass('open').siblings().removeClass('open');
- })
-    
-$("#franklin").on('click', function(){
-    $(".franklin").addClass('open').siblings().removeClass('open');
- })
-    
-$(".location-card").hover(
-  function () {
-    $(this).addClass("open").siblings().removeClass('open');
-  },
-  function () {
-    $(this).removeClass("open");
-  }
-);
-    
-});
-</script>

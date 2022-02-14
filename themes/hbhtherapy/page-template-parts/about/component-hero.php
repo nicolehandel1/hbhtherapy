@@ -14,6 +14,11 @@
     .about-filter-wrap.mobile {
         display: none;
     }
+    
+    .abt-pg-title {
+        text-align: left;
+        margin: 0;
+    }
 
     @media only screen and (max-width: 800px) {
         .about-filter-wrap.desktop {
@@ -23,12 +28,17 @@
         .about-filter-wrap.mobile {
             display: flex;
         }
+        
+        .abt-pg-title {
+            text-align: center;
+            margin: auto;
+        }
     }
 </style>
 
 <div class="section abtsection abt-hero">
 <div class="section-content hero-wrap" href="#about">
-    <h1 class="pg-title"><?php the_field( 'about_page_title' ); ?></h1>
+    <h1 class="pg-title abt-pg-title"><?php the_field( 'about_page_title' ); ?></h1>
     <p class="srvpg-summary abt-sum"><?php the_field( 'about_hero_text' ); ?></p>
 </div>
 

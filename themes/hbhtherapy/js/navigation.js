@@ -86,3 +86,76 @@ $(function(){
           return false;
       });
     });
+
+jQuery(document).ready(function () {
+  
+    $(window).scroll(function() {    
+    if ($(this).scrollTop() > 50) {
+        $(".abtsection").addClass("abtcolor");
+    } else {
+        $(".abtsection").removeClass("abtcolor");
+    }
+});
+    
+ $("#westSpringfield").on('click', function(){
+    $(".westspring").addClass('open').siblings().removeClass('open');
+ })
+    
+ $(".westspring").hover(
+  function (){
+    $("#westSpringfield").addClass('pinhover').siblings().removeClass('pinhover');
+ },
+  function () {
+    $("#westSpringfield").removeClass("pinhover");
+  }
+);
+    
+$("#amherst").on('click', function(){
+    $(".amherst").addClass('open').siblings().removeClass('open');
+ })
+    
+ $(".amherst").hover(
+  function (){
+    $("#amherst").addClass('pinhover').siblings().removeClass('pinhover');
+ },
+  function () {
+    $("#amherst").removeClass("pinhover");
+  }
+);
+    
+$("#wilbraham").on('click', function(){
+    $(".wilbraham").addClass('open').siblings().removeClass('open');
+ })
+    
+ $(".wilbraham").hover(
+  function (){
+    $("#wilbraham").addClass('pinhover').siblings().removeClass('pinhover');
+ },
+  function () {
+    $("#wilbraham").removeClass("pinhover");
+  }
+);
+    
+$("#franklin").on('click', function(){
+    $(".franklin").addClass('open').siblings().removeClass('open');
+ })
+    
+ $(".franklin").hover(
+  function (){
+    $("#franklin").addClass('pinhover').siblings().removeClass('pinhover');
+ },
+  function () {
+    $("#franklin").removeClass("pinhover");
+  }
+);
+    
+$(".location-card").hover(
+  function () {
+    $(this).addClass("open").siblings().removeClass('open');
+  },
+  function () {
+    $(this).removeClass("open");
+  }
+);
+    
+});
