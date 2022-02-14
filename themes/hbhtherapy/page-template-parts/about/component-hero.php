@@ -1,27 +1,32 @@
 <style>
-.about-filter-wrap {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    width: 100%;
-    margin-top: 10px;
-} 
+    .abt-hero {
+        padding-bottom: 0px;
+    }
 
-.about-filter-wrap.mobile {
-    display: none;
-}     
-    
-@media only screen and (max-width: 800px) {
-.about-filter-wrap.desktop {
-    display: none;
-}     
-.about-filter-wrap.mobile {
-    display: flex;
-} 
-}
+    .about-filter-wrap {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .about-filter-wrap.mobile {
+        display: none;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .about-filter-wrap.desktop {
+            display: none;
+        }
+
+        .about-filter-wrap.mobile {
+            display: flex;
+        }
+    }
 </style>
 
-<div class="section abtsection">
+<div class="section abtsection abt-hero">
 <div class="section-content hero-wrap" href="#about">
     <h1 class="pg-title"><?php the_field( 'about_page_title' ); ?></h1>
     <p class="srvpg-summary abt-sum"><?php the_field( 'about_hero_text' ); ?></p>

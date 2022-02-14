@@ -3,11 +3,16 @@
         background-color: transparent;
         transition: 1s ease;
     }
+
     .abtcolor {
-      background-color: #FAF8F4;
+        background-color: #FAF8F4;
         transition: 1s ease;
     }
 
+    #offices {
+        padding-top: 0px;
+    }
+    
     .abt-map {
         margin: auto;
     }
@@ -19,7 +24,6 @@
         font-size: 16px;
         display: block;
         position: relative;
-        background-image: url(/wp-content/uploads/2022/02/Path@2x.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -68,21 +72,27 @@
     .locations-wrap {
         display: flex;
         justify-content: space-between;
+        height: 500px;
+        margin-top: -300px;
+        padding-bottom: 50px;
     }
 
     .location-card {
         position: relative;
         top: 0;
         width: 25%;
+        height: 90%;
         margin: 20px;
         padding: 20px;
-        background-color: #fff;
-        border: 1px solid #979797;
+        background-color: rgba(255, 255, 255, .5);
         transition: .25s ease;
     }
 
     .open {
-        top: -200px;
+        top: -20px;
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px solid #979797;
+        height: 100%;
         box-shadow: -2px 2px 4px -2px #4d4d4d;
         -webkit-box-shadow: -2px 2px 4px -2px #4d4d4d;
         -moz-box-shadow: -2px 2px 4px -2px #4d4d4d;
@@ -92,6 +102,7 @@
     .location-card h3 {
         font-weight: 800;
         font-size: 1.5em;
+        color: #4D4D4D;
     }
 
     .location-card .btn {
@@ -106,15 +117,16 @@
         .locations-wrap {
             flex-wrap: wrap;
             margin-top: 0px;
+            height: auto;
         }
 
         .location-card {
             width: 100%;
         }
-        
+
         .open {
-        top: 0px;
-    }
+            top: 0px;
+        }
     }
 
     @media only screen and (max-width: 1100px) {
@@ -125,14 +137,20 @@
 
     @media only screen and (max-width: 800px) {
         #map {
+            width: 100%;
+            padding-top: 20%;
             font-size: 8px;
+        }
+
+        .location-card {
+            background-color: rgba(255, 255, 255, 1);
         }
     }
 </style>
-
 <div class="section abtsection" id="offices">
     <div class="section-content">
-        <ul id="map" class="abt-map">
+        
+        <ul id="map" class="abt-map" style="background-image: url('<?php the_field( 'locations_map' ); ?>');">
             <li id="westSpringfield" class="location-filter" style="top: 50%; left: 28%;"></li>
             <li id="amherst" class="location-filter" style="top: 38%; left: 33%;"></li>
             <li id="wilbraham" class="location-filter" style="top: 50%; left: 35%;"></li>
@@ -143,28 +161,28 @@
 
             <div class="location-card amherst">
                 <h3>Amherst</h3>
-                <p class="blog-author">test</p>
-                <p class="blog-author">test</p>
+                <a class="phone" href="tel:4136344805">(413) 634-4805</a>
+                <p class="blog-author">21 & 29 Pray St<br>Amherst, MA 01002</p>
                 <a class="btn" href="">Learn More</a>
             </div>
 
             <div class="location-card franklin">
                 <h3>Franklin</h3>
-                <p class="blog-author">test</p>
+                <p class="phone" href="tel:">test</p>
                 <p class="blog-author">test</p>
                 <a class="btn" href="">Learn More</a>
             </div>
 
             <div class="location-card wilbraham">
                 <h3>Wilbraham</h3>
-                <p class="blog-author">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="phone" href="tel:">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p class="blog-author">test</p>
                 <a class="btn" href="">Learn More</a>
             </div>
 
             <div class="location-card westspring">
                 <h3>West Springfield</h3>
-                <p class="blog-author">test</p>
+                <p class="phone" href="tel:">test</p>
                 <p class="blog-author">test</p>
                 <a class="btn" href="">Learn More</a>
             </div>
