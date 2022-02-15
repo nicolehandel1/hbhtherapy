@@ -12,7 +12,7 @@
         margin: 10%;
         padding: 20px;
         border-radius: 3px;
-        background-color: rgba(255, 255, 255, .8);
+        background-color: rgba(255, 255, 255, .85);
         transition: .25s ease;
     }
     
