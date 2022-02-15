@@ -1,174 +1,3 @@
-<style>
-    .abtsection {
-        background-color: transparent;
-        transition: 1s ease;
-    }
-
-    .abtcolor {
-        background-color: #FAF8F4;
-        transition: 1s ease;
-    }
-
-    #offices {
-        padding-top: 0px;
-    }
-
-    .abt-map {
-        margin: auto;
-    }
-
-    #map {
-        width: 80%;
-        height: 0;
-        padding-bottom: 55%;
-        font-size: 16px;
-        display: block;
-        position: relative;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
-    /* ===== Pins on the map ===== */
-
-    #map li {
-        /* pin's label */
-        display: block;
-        position: absolute;
-        width: 3em;
-        height: 3em;
-        background-color: #F7931E;
-        border: .8em solid #76559A;
-        border-radius: 3em;
-        cursor: pointer;
-        transform: translateX(-1em) translateY(-3.2em);
-        transition: .25s ease-out;
-    }
-
-    #map li:after {
-        /* pin's tip */
-        content: '';
-        display: block;
-        width: 0;
-        height: 0;
-        margin-top: 1.5em;
-        margin-left: -.6em;
-        border-left: 1.3em solid transparent;
-        border-right: 1.3em solid transparent;
-        border-top: 2em solid #76559A;
-        transition: border-top .25s ease-out;
-    }
-
-    #map li:hover {
-        background-color: #76559A;
-        border-color: #F7931E;
-        transform: translateX(-1em) translateY(-3.6em);
-    }
-
-    #map li:hover:after {
-        border-top: 2em solid #F7931E;
-    }
-
-    .pinhover {
-        background-color: #76559A !important;
-        border-color: #F7931E !important;
-        transform: translateX(-1em) translateY(-3.6em) !important;
-    }
-
-    .pinhover:after {
-        border-top: 2em solid #F7931E !important;
-    }
-
-    .locations-wrap {
-        display: flex;
-        justify-content: space-between;
-        height: 500px;
-        margin-top: -300px;
-        padding-bottom: 50px;
-    }
-
-    .location-card {
-        position: relative;
-        top: 0;
-        width: 25%;
-        height: 90%;
-        margin: 20px;
-        padding: 20px;
-        background-color: rgba(255, 255, 255, .5);
-        transition: .25s ease;
-    }
-
-    .open {
-        top: -20px;
-        background-color: rgba(255, 255, 255, 1);
-        border: 1px solid #979797;
-        height: 100%;
-        box-shadow: -2px 2px 4px -2px #4d4d4d;
-        -webkit-box-shadow: -2px 2px 4px -2px #4d4d4d;
-        -moz-box-shadow: -2px 2px 4px -2px #4d4d4d;
-        width: 30%;
-    }
-
-    .open .btn {
-        margin-top: 5px;
-        transition: .25s ease;
-    }
-
-    .location-card h3 {
-        font-weight: 800;
-        font-size: 1.5em;
-        color: #4D4D4D;
-    }
-
-    .location-card .btn {
-        width: 100%;
-    }
-
-    @media only screen and (min-width: 1300px) {
-        .open .btn {
-            margin-top: 25px;
-        }
-    }
-
-    @media only screen and (max-width: 1300px) {
-        #map {
-            font-size: 14px;
-        }
-
-        .locations-wrap {
-            flex-wrap: wrap;
-            margin-top: 0px;
-            height: auto;
-        }
-
-        .location-card {
-            width: 44%;
-        }
-
-        .open {
-            top: 0px;
-        }
-    }
-
-    @media only screen and (max-width: 1100px) {
-        #map {
-            font-size: 12px;
-        }
-    }
-
-    @media only screen and (max-width: 800px) {
-        #map {
-            width: 100%;
-            padding-top: 20%;
-            font-size: 8px;
-        }
-
-        .location-card {
-            width: 100%;
-            background-color: rgba(255, 255, 255, 1);
-        }
-    }
-</style>
 <div class="section abtsection" id="offices">
     <div class="section-content">
         
@@ -182,32 +11,43 @@
         <div class="locations-wrap">
 
             <div class="location-card amherst">
-                <h3>Amherst</h3>
-                <a class="phone" href="tel:4136344805">(413) 634-4805</a>
-                <p class="blog-author">21 & 29 Pray St<br>Amherst, MA 01002</p>
-                <p>Monday - Friday 8:00AM - 7:00PM</p>
-                <a class="btn" href="">Learn More</a>
+                <h3><?php the_field( 'location_name_1' ); ?></h3>
+                <a class="phone" href="tel:<?php the_field( 'phone_link_1' ); ?>"><?php the_field( 'phone_label_1' ); ?></a>
+                <p class="blog-author"><?php the_field( 'location_address_1' ); ?></p>
+                <p><?php the_field( 'location_hours_1' ); ?></p>
+                <?php $button_link_1 = get_field( 'button_link_1' ); if ( $button_link_1 ) : ?>
+                <a class="btn" href="<?php echo esc_url( $button_link_1); ?>"><?php the_field( 'button_label_1' ); ?></a>
+                <?php endif; ?>
             </div>
 
             <div class="location-card franklin">
-                <h3>Franklin</h3>
-                <p class="phone" href="tel:">test</p>
-                <p class="blog-author">test</p>
-                <a class="btn" href="">Learn More</a>
+                <h3><?php the_field( 'location_name_2' ); ?></h3>
+                <a class="phone" href="tel:<?php the_field( 'phone_link_2' ); ?>"><?php the_field( 'phone_label_2' ); ?></a>
+                <p class="blog-author"><?php the_field( 'location_address_2' ); ?></p>
+                <p><?php the_field( 'location_hours_2' ); ?></p>
+                <?php $button_link_2 = get_field( 'button_link_2' ); if ( $button_link_2 ) : ?>
+                <a class="btn" href="<?php echo esc_url( $button_link_2); ?>"><?php the_field( 'button_label_2' ); ?></a>
+                <?php endif; ?>
             </div>
 
             <div class="location-card wilbraham">
-                <h3>Wilbraham</h3>
-                <p class="phone" href="tel:">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p class="blog-author">test</p>
-                <a class="btn" href="">Learn More</a>
+                <h3><?php the_field( 'location_name_3' ); ?></h3>
+                <a class="phone" href="tel:<?php the_field( 'phone_link_3' ); ?>"><?php the_field( 'phone_label_3' ); ?></a>
+                <p class="blog-author"><?php the_field( 'location_address_3' ); ?></p>
+                <p><?php the_field( 'location_hours_3' ); ?></p>
+                <?php $button_link_3 = get_field( 'button_link_3' ); if ( $button_link_3 ) : ?>
+                <a class="btn" href="<?php echo esc_url( $button_link_3); ?>"><?php the_field( 'button_label_3' ); ?></a>
+                <?php endif; ?>
             </div>
 
             <div class="location-card westspring">
-                <h3>West Springfield</h3>
-                <p class="phone" href="tel:">test</p>
-                <p class="blog-author">test</p>
-                <a class="btn" href="">Learn More</a>
+                <h3><?php the_field( 'location_name_4' ); ?></h3>
+                <a class="phone" href="tel:<?php the_field( 'phone_link_4' ); ?>"><?php the_field( 'phone_label_4' ); ?></a>
+                <p class="blog-author"><?php the_field( 'location_address_4' ); ?></p>
+                <p><?php the_field( 'location_hours_4' ); ?></p>
+                <?php $button_link_4 = get_field( 'button_link_4' ); if ( $button_link_4 ) : ?>
+                <a class="btn" href="<?php echo esc_url( $button_link_4); ?>"><?php the_field( 'button_label_4' ); ?></a>
+                <?php endif; ?>
             </div>
         </div>
 

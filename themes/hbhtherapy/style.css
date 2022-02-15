@@ -2730,10 +2730,10 @@ a.srv-title {
 About Page
 ----------------------------- */
 
-.bg-clinicians, .bg-about {
+.bg-clinicians,
+.bg-about {
     display: none;
 }
-
 
 .page-template-about_page .bg-about {
     display: flex;
@@ -2754,24 +2754,295 @@ About Page
 .bg-about img {
     opacity: .3;
     -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-    }
+    transform: scaleX(-1);
+}
 
 .abt-sum {
     padding: 0 0 60px 0;
     width: 60%;
 }
 
+.abt-hero {
+    padding-bottom: 0px;
+}
+
+.about-filter-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.about-filter-wrap.mobile {
+    display: none;
+}
+
+.abt-pg-title {
+    text-align: left;
+    margin: 0;
+}
+
 @media only screen and (max-width: 1300px) {
     .abt-sum {
-    width: 80%;
+        width: 80%;
+    }
 }
+
 @media only screen and (max-width: 800px) {
     .bg-about .butterfly-img-wrap {
         display: none;
     }
+
     .abt-sum {
+        width: 100%;
+        padding: 0 10px 60px 10px;
+    }
+
+    .about-filter-wrap.desktop {
+        display: none;
+    }
+
+    .about-filter-wrap.mobile {
+        display: flex;
+    }
+
+    .abt-pg-title {
+        text-align: center;
+        margin: auto;
+    }
+}
+/*----------------- Offices --------------------*/
+.abtsection {
+    background-color: transparent;
+    transition: 1s ease;
+}
+
+.abtcolor {
+    background-color: #FAF8F4;
+    transition: 1s ease;
+}
+
+#offices {
+    padding-top: 0px;
+}
+
+.abt-map {
+    margin: auto;
+}
+
+#map {
+    width: 80%;
+    height: 0;
+    padding-bottom: 55%;
+    font-size: 16px;
+    display: block;
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* ===== Pins on the map ===== */
+
+#map li {
+    /* pin's label */
+    display: block;
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: #F7931E;
+    border: .8em solid #76559A;
+    border-radius: 3em;
+    cursor: pointer;
+    transform: translateX(-1em) translateY(-3.2em);
+    transition: .25s ease-out;
+}
+
+#map li:after {
+    /* pin's tip */
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: 1.5em;
+    margin-left: -.6em;
+    border-left: 1.3em solid transparent;
+    border-right: 1.3em solid transparent;
+    border-top: 2em solid #76559A;
+    transition: border-top .25s ease-out;
+}
+
+#map li:hover {
+    background-color: #76559A;
+    border-color: #F7931E;
+    transform: translateX(-1em) translateY(-3.6em);
+}
+
+#map li:hover:after {
+    border-top: 2em solid #F7931E;
+}
+
+.pinhover {
+    background-color: #76559A !important;
+    border-color: #F7931E !important;
+    transform: translateX(-1em) translateY(-3.6em) !important;
+}
+
+.pinhover:after {
+    border-top: 2em solid #F7931E !important;
+}
+
+.locations-wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    margin-top: -300px;
+    padding-bottom: 50px;
+}
+
+.location-card {
+    position: relative;
+    top: 0;
+    width: 25%;
+    height: 90%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .5);
+    transition: .25s ease;
+}
+
+.open {
+    top: -20px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #979797;
+    height: 100%;
+    box-shadow: -2px 2px 4px -2px #4d4d4d;
+    -webkit-box-shadow: -2px 2px 4px -2px #4d4d4d;
+    -moz-box-shadow: -2px 2px 4px -2px #4d4d4d;
+    width: 30%;
+}
+
+.open .btn {
+    margin-top: 5px;
+    transition: .25s ease;
+}
+
+.location-card h3 {
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #4D4D4D;
+}
+
+.location-card .btn {
     width: 100%;
-    padding: 0 10px 60px 10px;
 }
+
+@media only screen and (min-width: 1300px) {
+    .open .btn {
+        margin-top: 25px;
+    }
 }
+
+@media only screen and (max-width: 1300px) {
+    #map {
+        font-size: 14px;
+    }
+
+    .locations-wrap {
+        flex-wrap: wrap;
+        margin-top: 0px;
+        height: auto;
+    }
+
+    .location-card {
+        width: 44%;
+    }
+
+    .open {
+        top: 0px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #map {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #map {
+        width: 100%;
+        padding-top: 20%;
+        font-size: 8px;
+    }
+
+    .location-card {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 1);
+    }
+}
+/*----------------- EF --------------------*/
+
+.ef-section {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 40%, rgba(245, 239, 233, 1) 41%);
+}
+
+.abt-section {
+    margin-bottom: 0px;
+}
+
+.abt-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ins-content .srvpg-title-wrap {
+    background-color: #fff;
+}
+
+.ins-content .srvpg-summary-wrap {
+    background-color: #f5efe9;
+}
+
+.ins-content .pg-title {
+    color: #008587;
+}
+
+@media only screen and (min-width: 1300px) {
+    .abt-content .srvpg-title-wrap {
+        width: 40%;
+    }
+
+    .abt-content .srvpg-summary-wrap {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .section-content.abt-content {
+        padding: 0px;
+    }
+
+    .abt-content .srvpg-title-wrap {
+        padding: 0px 20px;
+        ;
+    }
+
+    .abt-content .srvpg-summary-wrap {
+        padding-bottom: 50px;
+        ;
+    }
+}
+
+/*----------------- Insurance --------------------*/
+
+.ins-section {
+    background: rgb(123, 190, 182);
+    background: linear-gradient(90deg, rgba(123, 190, 182, 1) 40%, rgba(255, 255, 255, 1) 41%);
+}
+/*----------------- Covid Response --------------------*/
+
+/*----------------- Careers --------------------*/
