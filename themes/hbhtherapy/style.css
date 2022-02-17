@@ -966,7 +966,7 @@ a.btn {
     margin: 0 auto;
     max-width: 1680px;
     width: 100%;
-    background-image: url(http://hbhtherapy.local/wp-content/uploads/2022/01/Menu-Butterfly@2x.png);
+    background-image: url(/Menu-Butterfly@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -2525,7 +2525,6 @@ Service & Treatment Archive Pages
 .srvpg-hero-content {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .srvpg-hero-section {

@@ -1,3 +1,6 @@
+<?php 
+$officeBg =  get_field( 'office_header_image');
+?>
 <style>
     .ofchero-wrap {
         background-position: center;
@@ -32,7 +35,7 @@
 }
 </style>
 <div class="hero-wrap">
-    <div class="section-content single-hero-content ofchero-wrap" style="background-image: url('<?php the_field( 'office_header_image' ); ?>');">
+    <div class="section-content single-hero-content ofchero-wrap" style="background-image: url('<?php echo $officeBg ; ?>');">
 
             <div class="office-hero-info">
                 <h1 class="pg-title abt-pg-title"><?php the_field( 'page_title' ); ?></h1>
