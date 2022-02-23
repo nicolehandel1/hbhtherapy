@@ -30,6 +30,36 @@
             <?php else: ?>
                 <?php // No layouts found ?>
             <?php endif; ?>
+            
+            <!-- Author ------------->
+                
+           <?php if ( have_rows( 'blog_author' ) ): ?>
+                
+           <h1 class="blog-subtitle bauthor-title">About The Author</h1>
+
+           <?php while ( have_rows( 'blog_author' ) ) : the_row(); ?>
+		   
+           <?php if ( get_row_layout() == 'other' ) : $blog_author_other = get_sub_field( 'blog_author_other' ); if ( $blog_author_other ) :  $post = $blog_author_other;  setup_postdata( $post ); ?>
+
+                <div class="bauthor-wrap">
+                    <img class="bauthor-img" src="<?php the_field( 'author_bioheadshot' ); ?>" data-rjs="2" alt="<?php the_field( 'author_bioname' ); ?> Headshot" />
+                    <div class="">
+                        <h4 class="bauthor-name"><?php the_field( 'author_bioname' ); ?></h4>
+                        <p class="bauthor-bio"><?php the_field( 'author_bio' ); ?></p>
+                    </div>
+                </div><?php wp_reset_postdata(); ?>
+            
+            <?php endif; elseif ( get_row_layout() == 'clinician' ) : $blog_authot_clincician = get_sub_field( 'blog_authot_clincician' ); if ( $blog_authot_clincician ) : $post = $blog_authot_clincician;  setup_postdata( $post ); ?>
+            
+                <div class="bauthor-wrap">
+                    <img class="bauthor-img" src="<?php the_field( 'clinician-headshot' ); ?>" data-rjs="2" alt="<?php the_title( ); ?> Headshot" />
+                    <div class="">
+                        <h4 class="bauthor-name"><?php the_title( ); ?>, <?php $license = wp_get_post_terms($post->ID, 'clinician-licensure'); if ($license) { $out = array(); foreach ($license as $license) { $out[] = '' .$license->name .''; } echo join( ', ',$out ); } ?></h4>
+                        <p class="bauthor-bio"><?php the_field( 'author_summary' ); ?> <a href="<?php the_permalink(); ?>" class="bauthor-more">More About Author →</a></p>
+                    </div>
+                </div><?php wp_reset_postdata(); ?>
+
+                <?php endif; endif; endwhile; else: endif; ?>
 
         </div>
         

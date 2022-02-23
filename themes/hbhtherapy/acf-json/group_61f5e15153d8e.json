@@ -59,12 +59,82 @@
                 "id": ""
             },
             "layouts": {
+                "layout_61f5e2c8f74f5": {
+                    "key": "layout_61f5e2c8f74f5",
+                    "name": "other",
+                    "label": "Other",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_621692482f76d",
+                            "label": "Text Before Name",
+                            "name": "text_before_name_copy",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "By",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_61f5e23df74f2",
+                            "label": "Other",
+                            "name": "blog_author_other",
+                            "type": "post_object",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "author"
+                            ],
+                            "taxonomy": "",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "return_format": "object",
+                            "ui": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_61f5e1ec7bc61": {
                     "key": "layout_61f5e1ec7bc61",
                     "name": "clinician",
                     "label": "Clinician",
                     "display": "block",
                     "sub_fields": [
+                        {
+                            "key": "field_6216923a2f76c",
+                            "label": "Text Before Name",
+                            "name": "text_before_name",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "By",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
                         {
                             "key": "field_61f5e1eff74f1",
                             "label": "Clincician",
@@ -81,36 +151,6 @@
                             "post_type": [
                                 "clinician"
                             ],
-                            "taxonomy": "",
-                            "allow_null": 0,
-                            "multiple": 0,
-                            "return_format": "object",
-                            "ui": 1
-                        }
-                    ],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_61f5e2c8f74f5": {
-                    "key": "layout_61f5e2c8f74f5",
-                    "name": "other",
-                    "label": "Other",
-                    "display": "block",
-                    "sub_fields": [
-                        {
-                            "key": "field_61f5e23df74f2",
-                            "label": "Other",
-                            "name": "blog_author_other",
-                            "type": "post_object",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "post_type": "",
                             "taxonomy": "",
                             "allow_null": 0,
                             "multiple": 0,
@@ -333,5 +373,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1644196507
+    "modified": 1645646827
 }

@@ -58,18 +58,37 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
 
             <a class="btn <?php $terms = wp_get_post_terms(get_the_id(), 'clinician-color');  foreach ($terms as $term) { echo $term->slug.' ';} ?>" href="<?php the_field( 'clinician-book_now_link' ); ?>" target="_blank"><?php the_field( 'clinician_button_label', 'option' ); ?></a>
             
-            <a class="archive-link" href="/counselors-appointments/"><?php the_field( 'clinicians_view_all_label', 'option' ); ?>
-</a>
+            <a class="archive-link" href="/counselors-appointments/"><?php the_field( 'clinicians_view_all_label', 'option' ); ?></a>
 
         </div>
         
         <div class="single-content">
-            <p class="clinician-subtitle">Counseling Style</p>
-            <p><?php the_field( 'clinician-counseling_style' ); ?></p>
+            
+            <!------------- Bio Content ------------->
+            
+            
+            <?php if ( have_rows( 'clinician_bio_content' ) ): while ( have_rows( 'clinician_bio_content' ) ) : the_row(); ?>
+            
+            <?php if ( get_row_layout() == 'counseling_style' ) : ?>
+                <p class="clinician-subtitle">Counseling Style</p>
+                <p><?php the_sub_field( 'clinician-counseling_style' ); ?></p>
+                
+            <?php elseif ( get_row_layout() == 'experience' ) : ?>
+                <p class="clinician-subtitle">Experience</p>
+                <p><?php the_sub_field( 'clinician-experience' ); ?></p>
+                
+            <?php elseif ( get_row_layout() == 'other' ) : ?>
+                <p><?php the_sub_field( 'miscother' ); ?></p>
+                
+            <?php endif; ?>
 
-            <p class="clinician-subtitle">Experience</p>
-            <p><?php the_field( 'clinician-experience' ); ?></p>
+            <?php endwhile; else: endif; ?>
+            
+            
 
+            
+
+            <!------------- Specialties & Modalities ------------->
             
             <?php if ($specialties) { $out = array(); ?>
             <p class="clinician-subtitle">Specialties</p>
@@ -85,6 +104,8 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
                         $out[] = '<li>' .$modality->name .'</li>';
                     }
                     echo join( $out ); } ?></ul>
+            
+            <!------------- Call to Action ------------->
 
             <p><?php the_field( 'clinician-call_to_action' ); ?></p>
         </div>

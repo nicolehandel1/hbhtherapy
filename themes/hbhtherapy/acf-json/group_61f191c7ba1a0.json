@@ -84,10 +84,10 @@
             "maxlength": ""
         },
         {
-            "key": "field_61f1925413567",
-            "label": "Counseling Style",
-            "name": "clinician-counseling_style",
-            "type": "wysiwyg",
+            "key": "field_62167d1cf4fda",
+            "label": "Bio Content",
+            "name": "clinician_bio_content",
+            "type": "flexible_content",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -96,30 +96,98 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
-        },
-        {
-            "key": "field_61f1924213566",
-            "label": "Experience",
-            "name": "clinician-experience",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
+            "layouts": {
+                "layout_62167d53f4fdc": {
+                    "key": "layout_62167d53f4fdc",
+                    "name": "counseling_style",
+                    "label": "Counseling Style",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_61f1925413567",
+                            "label": "Counseling Style",
+                            "name": "clinician-counseling_style",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62167d45f4fdb": {
+                    "key": "layout_62167d45f4fdb",
+                    "name": "experience",
+                    "label": "Experience",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_61f1924213566",
+                            "label": "Experience",
+                            "name": "clinician-experience",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62167d7df4fde": {
+                    "key": "layout_62167d7df4fde",
+                    "name": "other",
+                    "label": "Other",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62167d67f4fdd",
+                            "label": "Misc\/Other",
+                            "name": "miscother",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
             },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
+            "button_label": "Add Section",
+            "min": "",
+            "max": ""
         },
         {
             "key": "field_61f1926b13568",
@@ -139,6 +207,25 @@
             "toolbar": "full",
             "media_upload": 1,
             "delay": 0
+        },
+        {
+            "key": "field_6216807b84173",
+            "label": "Author Summary",
+            "name": "author_summary",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": 445,
+            "rows": "",
+            "new_lines": ""
         }
     ],
     "location": [
@@ -159,5 +246,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1643692262
+    "modified": 1645641946
 }

@@ -85,6 +85,25 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "key": "field_62169e07b2fff",
+                            "label": "Text Before Name",
+                            "name": "text_before_name",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
                             "key": "field_61f70cdd9c98f",
                             "label": "Clincician",
                             "name": "blog_authot_clincician",
@@ -116,6 +135,25 @@
                     "label": "Other",
                     "display": "block",
                     "sub_fields": [
+                        {
+                            "key": "field_62169e25b3000",
+                            "label": "Text Before Name",
+                            "name": "text_before_name_copy",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
                         {
                             "key": "field_61f70cdd9c995",
                             "label": "Other",
@@ -359,5 +397,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1644196524
+    "modified": 1645649470
 }
