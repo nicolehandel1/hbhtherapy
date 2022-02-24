@@ -10,10 +10,10 @@ $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
             
             <a class="archive-link" href="/mental-health-blog/">Mental Health Blog</a>
 
-            <h2><?php the_title(); ?></h2>
+            <h1 class="blog-title"><?php the_title(); ?></h1>
 
             <?php if( get_field('blog_subtitle') ): ?>
-            <h1 class="blog-hero-subtitle"><?php the_field( 'blog_subtitle' ); ?></h1>
+            <h2 class="blog-hero-subtitle"><?php the_field( 'blog_subtitle' ); ?></h2>
             <?php endif; ?>
 
             <?php if ( have_rows( 'blog_author' ) ):  while ( have_rows( 'blog_author' ) ) : the_row(); ?>

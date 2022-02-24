@@ -2275,7 +2275,7 @@ a.archive-link:hover {
     opacity: .5;
 }
 
-.single-hero-info h2 {
+.single-hero-info h1 {
     color: #085962;
 }
 
@@ -2401,6 +2401,22 @@ ul.sidebar-bullets {
 /*--------------------
 Blog Single
 ----------------------------- */
+
+h1.blog-title {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+@media only screen and (max-width: 800px) {
+    h1.blog-title {
+        font-size: 1.5em;
+        text-align: left;
+    }
+}
+
 .single-post {
     background-color: #f5efe9;
 }

@@ -7,7 +7,7 @@
                 <?php while ( have_rows( 'blog_content' ) ) : the_row(); ?>
                     <?php if ( get_row_layout() == 'section_title' ) : ?>
             
-            <h1 class="blog-subtitle"><?php the_sub_field( 'blog_section_title' ); ?></h1>
+            <h2 class="blog-subtitle"><?php the_sub_field( 'blog_section_title' ); ?></h2>
             
                     <?php elseif ( get_row_layout() == 'section_content' ) : ?>
             

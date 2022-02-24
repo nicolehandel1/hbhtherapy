@@ -15,14 +15,14 @@ $license = wp_get_post_terms($post->ID, 'clinician-licensure');
 
         <div class="single-hero-info">
 
-            <h2><?php the_title( ); ?>,
+            <h1 class="blog-title"><?php the_title( ); ?>,
 
                 <?php if ($license) { $out = array(); foreach ($license as $license) {
                         $out[] = '' .$license->name .'';
                     }
                     echo join( ', ',$out ); } ?>
 
-            </h2>
+            </h1>
 
             <?php if ($location) { $out = array(); ?>
             <p class="clinician-subtitle">For <?php foreach ($location as $location) { $out[] = '' .$location->name .''; } echo join( ' & ',$out ); } ?> Appointments</p>
