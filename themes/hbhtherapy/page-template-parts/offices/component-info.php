@@ -1,3 +1,11 @@
+<?php 
+$terms = get_terms( array(
+    'taxonomy' => 'clinician-services',
+    'hide_empty' => false, ) );
+$insurance = get_terms( array(
+    'taxonomy' => 'clinician-insurance',
+    'hide_empty' => false, ) );
+?>
 <style>
     .office-subtitle {
         color: #76559A;
@@ -11,8 +19,12 @@
             
             <p class="clinician-subtitle">Services</p>
             <hr>
+            <ul class="sidebar-bullets"><?php foreach ($terms as $term){
+                echo '<li>' .$term->name .'</li>';} ?></ul>
             <p class="clinician-subtitle">Accepted Insurance Providers</p>
             <hr>
+            <ul class="sidebar-bullets"><?php foreach ($insurance as $ins){
+                echo '<li>' .$ins->name .'</li>';} ?></ul>
             <p class="clinician-subtitle">Share</p>
             <hr>
             <div class="share-icons">
@@ -36,7 +48,7 @@
 
             <a class="btn" target="_blank">Test button</a>
             
-            <a class="archive-link" href="/counselors-appointments/"><?php the_field( 'clinicians_view_all_label', 'option' ); ?></a>
+            <a class="archive-link" href="/about-us/">View All Offices</a>
 
         </div>
         
