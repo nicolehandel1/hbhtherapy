@@ -1,6 +1,9 @@
-<?php 
+<style>
+    .office-subtitle {
+        color: #76559A;
+    }
 
-?>
+</style>
 
 <div class="section clin-info-section">
     <div class="section-content clin-info-content">
@@ -38,11 +41,12 @@
         </div>
         
         <div class="single-content">
+            <h1 class="blog-title office-title"><?php the_title(); ?></h1>
             <?php if ( have_rows( 'blog_content' ) ): ?>
                 <?php while ( have_rows( 'blog_content' ) ) : the_row(); ?>
                     <?php if ( get_row_layout() == 'section_title' ) : ?>
             
-            <h1 class="blog-subtitle"><?php the_sub_field( 'blog_section_title' ); ?></h1>
+            <h1 class="blog-subtitle office-subtitle"><?php the_sub_field( 'blog_section_title' ); ?></h1>
             
                     <?php elseif ( get_row_layout() == 'section_content' ) : ?>
             
