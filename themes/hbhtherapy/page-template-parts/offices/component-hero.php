@@ -1,7 +1,7 @@
 <?php 
 $officeBg =  get_the_post_thumbnail_url();
 ?>
-<link rel="preload" as="image" href="<?php echo $officeBg ; ?>">
+<link rel="preload" as="image" href="<?php the_post_thumbnail_url() ; ?>">
 <style>
     .ofchero-wrap {
         background-position: center;
@@ -38,7 +38,7 @@ $officeBg =  get_the_post_thumbnail_url();
 </style>
 <div class="hero-wrap">
 
-    <div class="section-content single-hero-content ofchero-wrap" style="background-image: url('<?php echo $officeBg ; ?>');">
+    <div class="section-content single-hero-content ofchero-wrap" style="background-image: url('<?php the_post_thumbnail_url() ; ?>');">
 
             <div class="office-hero-info">
                 <h1 class="pg-title abt-pg-title"><?php the_field( 'page_title' ); ?></h1>
