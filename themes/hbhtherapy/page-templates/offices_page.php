@@ -11,7 +11,7 @@
 
 	get_template_part( 'page-template-parts/offices/component', 'hero');
 
-    get_template_part( 'page-template-parts/offices/component', 'info');
+    //get_template_part( 'page-template-parts/offices/component', 'info');
 
     
  	// get the footer
