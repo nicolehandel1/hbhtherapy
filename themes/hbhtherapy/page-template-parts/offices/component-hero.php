@@ -1,6 +1,7 @@
 <?php 
 $officeBg =  get_field( 'office_header_image');
 ?>
+<link rel="preload" as="image" href="<?php echo $officeBg ; ?>">
 <style>
     .ofchero-wrap {
         background-position: center;

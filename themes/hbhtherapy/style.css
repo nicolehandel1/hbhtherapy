@@ -3103,12 +3103,16 @@ About Page
 
     .abt-content .srvpg-title-wrap {
         padding: 0px 20px;
-        ;
     }
 
     .abt-content .srvpg-summary-wrap {
         padding-bottom: 50px;
-        ;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .abt-title {
+        padding: 30px 10px;
     }
 }
 
@@ -3119,5 +3123,25 @@ About Page
     background: linear-gradient(90deg, rgba(123, 190, 182, 1) 40%, rgba(255, 255, 255, 1) 41%);
 }
 /*----------------- Covid Response --------------------*/
+
+.covid-section {
+    background-color: #76559A;
+}
+
+.covid-section .pg-title {
+    color: #F7931E;
+}
+
+.covid-sum {
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .covid-sum {
+        text-align: left;
+    }
+}
 
 /*----------------- Careers --------------------*/

@@ -1,8 +1,8 @@
-<div class="section srvpg-hero-section abt-section ins-section" id="ef">
+<div class="section srvpg-hero-section abt-section ins-section" id="ins">
     <div class="section-content abt-content">
 
         <div class="single-hero-info srvpg-title-wrap">
-            <h1 class="pg-title"><?php the_field( 'ins_section_title_' ); ?></h1>
+            <h1 class="pg-title abt-title"><?php the_field( 'ins_section_title_' ); ?></h1>
         </div>
         
         <div class="srvpg-summary-wrap">
