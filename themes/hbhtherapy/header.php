@@ -14,7 +14,14 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-    
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="https://use.typekit.net/gzp8yat.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta property="og:title" content="<?php the_title() ?>"/>
+    <meta property="og:image" content="<?php the_post_thumbnail() ?>"/>
+    <meta property="og:url" content="<?php the_permalink(); ?>"/>
 
     <?php wp_head(); ?>
 </head>
