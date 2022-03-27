@@ -1,5 +1,5 @@
 <?php 
-$officeBg =  get_field( 'office_header_image');
+$officeBg =  get_the_post_thumbnail_url();
 ?>
 <link rel="preload" as="image" href="<?php echo $officeBg ; ?>">
 <style>
