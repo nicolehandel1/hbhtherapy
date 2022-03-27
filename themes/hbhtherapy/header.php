@@ -22,7 +22,7 @@
     <meta property="og:title" content="<?php the_title() ?>"/>
     <meta property="og:image" content="<?php the_post_thumbnail() ?>"/>
     <meta property="og:url" content="<?php the_permalink(); ?>"/>
-
+    <link rel="preload" as="image" href="<?php the_post_thumbnail_url() ; ?>">
     <?php wp_head(); ?>
 </head>
 

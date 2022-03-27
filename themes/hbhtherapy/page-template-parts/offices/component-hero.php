@@ -1,7 +1,6 @@
 <?php 
 $officeBg =  get_the_post_thumbnail_url();
 ?>
-<link rel="preload" as="image" href="<?php the_post_thumbnail_url() ; ?>">
 <style>
     .ofchero-wrap {
         background-position: center;
