@@ -37,7 +37,7 @@ $officeBg =  get_field( 'office_header_image');
 }
 </style>
 <div class="hero-wrap">
-            <img src="<?php echo $officeBg ; ?>" alt="office photo" style="display: none;">
+            <img src="<?php echo $officeBg ; ?>" alt="office photo" >
 
     <div class="section-content single-hero-content ofchero-wrap" style="background-image: url('<?php echo $officeBg ; ?>');">
 
