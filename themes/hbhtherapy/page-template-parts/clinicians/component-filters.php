@@ -35,7 +35,7 @@ $services = get_terms( array(
                 </select></div>
 
                 <div class="select"><select value-group="services" class=" button-groupjs-radio-button-group filters-select" data-width="100%">
-                    <option title="button is-checked" value="">Servies</option>
+                    <option title="button is-checked" value="">Services</option>
                     <option title="button is-checked" value="">View All</option>
 
                     <?php foreach ($services as $service) {

@@ -1,7 +1,5 @@
 <?php 
-$terms = get_terms( array(
-    'taxonomy' => 'clinician-services',
-    'hide_empty' => false, ) );
+
 $insurance = get_terms( array(
     'taxonomy' => 'clinician-insurance',
     'hide_empty' => false, ) );
@@ -10,17 +8,37 @@ $insurance = get_terms( array(
     .office-subtitle {
         color: #76559A;
     }
-
+    .slb_data_content {
+        display: none;
+    }
+    #slb_viewer_wrap .slb_theme_slb_baseline .slb_container {
+        padding: 0px;
+    }
+    #slb_viewer_wrap .slb_theme_slb_baseline .slb_viewer_overlay {
+        background-color: #fff;
+    }
 </style>
 
 <div class="section clin-info-section">
     <div class="section-content clin-info-content">
         <div class="sidebar">
             
-            <p class="clinician-subtitle">Services</p>
+            <p class="clinician-subtitle"><?php the_field( 'photo_gallery_title' ); ?></p>
             <hr>
-            <ul class="sidebar-bullets"><?php foreach ($terms as $term){
-                echo '<li>' .$term->name .'</li>';} ?></ul>
+            
+            <?php $images = get_field( 'office_photo_gallery' ); if ( $images ) :  ?>
+            
+                <?php foreach ( $images as $image ): 
+            
+                    $content .= '<a href="'. $image['url'] .'">';
+                    $content .= '<img src="'. $image['sizes']['medium_large'] .'" alt="'. $image['alt'] .'" />';
+                    $content .= '</a>';
+                    ?>
+
+                <?php endforeach; if ( function_exists('slb_activate') ){ $content = slb_activate($content); } echo $content; 
+            endif; ?>
+
+            
             <p class="clinician-subtitle">Accepted Insurance Providers</p>
             <hr>
             <ul class="sidebar-bullets"><?php foreach ($insurance as $ins){
@@ -42,11 +60,11 @@ $insurance = get_terms( array(
             </div>
 
         
-            <p class="clinician-subtitle"></p>
+            <p class="clinician-subtitle">For Appointments</p>
             <hr>
-            <a class="phone" href="tel:">Test</a>
+            <a class="phone" href="tel:<?php the_field( 'phone_link' ); ?>">Call <?php the_field( 'phone_label' ); ?></a>
 
-            <a class="btn" target="_blank">Test button</a>
+            <a class="btn" href="/counselors-appointments/">View Availabiltiy</a>
             
             <a class="archive-link" href="/about-us/">View All Offices</a>
 
