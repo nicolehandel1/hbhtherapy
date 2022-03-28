@@ -1,3 +1,11 @@
+<style>
+.archive-link {
+    color: #085962;
+    width: 100%;
+    font-weight: 800;
+    font-size: 16px;
+    }
+</style>
 <?php 
 
 $treatments = new WP_Query( array(
@@ -105,6 +113,7 @@ $modalities = new WP_Query( array(
 
             <div class="srv-item-info">
 
+                <p class="archive-link"><?php $terms = wp_get_post_terms(get_the_id(), 'treatment-type');  foreach ($terms as $term) { echo $term->name.' ';} ?></p>
                 <a class="srv-title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                 
                 <p class=""><?php the_field( 'single_excerpt_summary' ); ?></p>

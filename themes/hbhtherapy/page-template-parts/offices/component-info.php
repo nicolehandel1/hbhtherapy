@@ -1,5 +1,4 @@
 <?php 
-
 $insurance = get_terms( array(
     'taxonomy' => 'clinician-insurance',
     'hide_empty' => false, ) );
