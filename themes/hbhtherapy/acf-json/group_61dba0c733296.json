@@ -195,7 +195,7 @@
             "key": "field_6245cdcf3d462",
             "label": "Blog",
             "name": "",
-            "type": "tab",
+            "type": "accordion",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -204,7 +204,8 @@
                 "class": "",
                 "id": ""
             },
-            "placement": "top",
+            "open": 0,
+            "multi_expand": 0,
             "endpoint": 0
         },
         {
@@ -986,5 +987,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1648741902
+    "modified": 1648742094
 }
