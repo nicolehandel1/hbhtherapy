@@ -2350,6 +2350,10 @@ ul.sidebar-bullets {
     background: #fff;
 }
 
+.single-content li {
+    margin-bottom: 25px;
+}
+
 .clin-info-content h2 {
     color: #085962;
 }
