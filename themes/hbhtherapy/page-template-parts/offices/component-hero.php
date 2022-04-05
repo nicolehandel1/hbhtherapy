@@ -21,7 +21,7 @@ $officeBg =  get_field( 'office_header_image');
     }
     .office-title {
         color: #008587;
-        margin: 0px 0px 25px 0px;
+        margin: 0px 0px 80px 0px;
     }
     .office-details {
         font-weight: 800;
@@ -47,6 +47,9 @@ $officeBg =  get_field( 'office_header_image');
     }
     .office-hero-info {
         background-color: rgba(255, 255, 255, .9);
+    }
+    .office-title {
+        margin: 0px 0px 25px 0px;
     }
 }
 </style>
