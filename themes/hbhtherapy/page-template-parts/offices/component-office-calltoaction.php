@@ -1,5 +1,6 @@
-<div class="section home-calltoaction">
-    tst
+<div class="section office-calltoaction">
+<div class="section office-calltoaction">
+
     <div class="section-content align-center">
         <div class="home-call-wrap home-call-btom">
             <h1 class="home-tagline"><?php the_field( 'call_to_action' ); ?></h1>
