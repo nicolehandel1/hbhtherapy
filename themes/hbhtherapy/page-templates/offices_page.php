@@ -10,12 +10,8 @@
 <?php
 
 	get_template_part( 'page-template-parts/offices/component', 'hero');
-
     get_template_part( 'page-template-parts/offices/component', 'info');
 
-    get_template_part( 'page-template-parts/home/component', 'home-testimonials');
-
-    
  	// get the footer
  	get_footer(); 
  ?>

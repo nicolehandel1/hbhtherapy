@@ -98,6 +98,9 @@ $insurance = get_terms( array(
             <?php else: ?>
                 <?php // No layouts found ?>
             <?php endif; ?>
+            
+            <?php get_template_part( 'page-template-parts/offices/component', 'office-calltoaction'); ?>
+
         </div>
 
     </div>
