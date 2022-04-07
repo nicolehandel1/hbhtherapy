@@ -3080,6 +3080,14 @@ About Page
     flex-wrap: wrap;
 }
 
+.abt-title-wrap {
+    padding: 75px 75px 150px 75px;
+}
+
+.abt-content .srvpg-summary-wrap {
+    padding: 75px 75px 75px 75px;
+}
+
 .ins-content .srvpg-title-wrap {
     background-color: #fff;
 }
@@ -3114,6 +3122,12 @@ About Page
 
     .abt-content .srvpg-summary-wrap {
         padding-bottom: 50px;
+    }
+    .ef-title-wrap {
+        background-color: #f5efe9 !important;
+    }
+    .ins-title-wrap {
+        background-color: #fff !important;
     }
 }
 

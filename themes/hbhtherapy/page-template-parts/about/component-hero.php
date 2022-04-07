@@ -12,7 +12,7 @@
         </a>
         
         <a class="button-filter-wrap" href="#ef">
-            <button class="button-filter">Enrollment Fee</button>
+            <button class="button-filter">Membership Benefits</button>
         </a>
         
         <a class="button-filter-wrap" href="#ins">
@@ -34,7 +34,7 @@
         <div class="select"><select class="service-filters" data-width="100%" id="dynamic_select">
             <option value="/about-us/#about">Go To Section</option>
             <option value="/about-us/#offices">Offices</option>
-            <option value="/about-us/#ef">Enrollment Fee</option>
+            <option value="/about-us/#ef">Membership Benefits</option>
             <option value="/about-us/#ins">Insurance</option>
             <option value="/about-us/#covid">Covid Response</option>
             <option value="/about-us/#career">Careers</option>
