@@ -66,7 +66,7 @@
             "key": "field_620972189de9f",
             "label": "Hero Text",
             "name": "about_hero_text",
-            "type": "textarea",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -76,10 +76,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
             "key": "field_6209f1390ccb1",
@@ -945,5 +945,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1649350258
+    "modified": 1649354561
 }
