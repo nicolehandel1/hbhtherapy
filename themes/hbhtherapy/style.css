@@ -3121,7 +3121,7 @@ About Page
     }
 
     .abt-content .srvpg-summary-wrap {
-        padding-bottom: 50px;
+        padding: 20px 30px 50px 30px;
     }
     .ef-title-wrap {
         background-color: #f5efe9 !important;
@@ -3134,6 +3134,21 @@ About Page
 @media only screen and (max-width: 1100px) {
     .abt-title {
         padding: 30px 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .abt-title {
+        padding: 30px 0px;
+    }
+    
+    .covid-title {
+        padding: 30px 10px;
+    }
+
+    .abt-content .srvpg-summary-wrap {
+        padding: 0px 20px 50px 20px;
     }
 }
 
