@@ -35,7 +35,8 @@ $posts = new WP_Query( $args );
         <?php if ( $posts->have_posts() ) :  while( $posts->have_posts() ) : $posts->the_post() ;
             $imageID = get_field('blog_header_image');
             $image = wp_get_attachment_image_src( $imageID, 'full' ); 
-            $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true); 
+            $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
+            $date = get_the_date('F j, Y', $post->ID);
             ?>
 
         <div class="grid-item blog-grid-item" data-category="transition">
@@ -80,7 +81,7 @@ $posts = new WP_Query( $args );
                     <?php // No layouts found ?>
                     <?php endif; ?>
 
-                    <p class="blog-date"><?php echo get_the_date( 'F j, Y' ); ?></p>
+                    <p class="blog-date"><?php echo $date; ?></p>
 
                 </a>
             </div>
