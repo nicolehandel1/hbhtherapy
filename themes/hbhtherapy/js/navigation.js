@@ -97,7 +97,7 @@ jQuery(document).ready(function () {
     }
 });
     
- $("#westSpringfield").on('click', function(){
+ $("#westSpringfield").hover(function(){
     $(".westspring").addClass('open').siblings().removeClass('open');
  })
     
@@ -110,7 +110,7 @@ jQuery(document).ready(function () {
   }
 );
     
-$("#amherst").on('click', function(){
+$("#amherst").hover(function(){
     $(".amherst").addClass('open').siblings().removeClass('open');
  })
     
@@ -123,7 +123,7 @@ $("#amherst").on('click', function(){
   }
 );
     
-$("#wilbraham").on('click', function(){
+$("#wilbraham").hover(function(){
     $(".wilbraham").addClass('open').siblings().removeClass('open');
  })
     
@@ -136,7 +136,7 @@ $("#wilbraham").on('click', function(){
   }
 );
     
-$("#franklin").on('click', function(){
+$("#franklin").hover(function(){
     $(".franklin").addClass('open').siblings().removeClass('open');
  })
     

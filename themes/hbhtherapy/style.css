@@ -2980,7 +2980,7 @@ About Page
 .locations-wrap {
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    height: 475px;
     margin-top: -300px;
     padding-bottom: 50px;
 }
@@ -2992,8 +2992,13 @@ About Page
     height: 90%;
     margin: 20px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(250, 248, 244, .5);
+    border: 1px solid #979797;
     transition: .25s ease;
+}
+
+.location-card a.phone {
+    text-align: left;
 }
 
 .open {
@@ -3015,6 +3020,7 @@ About Page
     font-weight: 800;
     font-size: 1.5em;
     color: #4D4D4D;
+    margin-top: 10px;
 }
 
 .location-card .btn {
@@ -3040,6 +3046,11 @@ About Page
 
     .location-card {
         width: 44%;
+        background-color: rgba(123, 190, 182, 1);
+    }
+    
+    .location-card p {
+        color: #fff;
     }
 
     .open {
@@ -3062,7 +3073,6 @@ About Page
 
     .location-card {
         width: 100%;
-        background-color: rgba(255, 255, 255, 1);
     }
 }
 /*----------------- EF --------------------*/
