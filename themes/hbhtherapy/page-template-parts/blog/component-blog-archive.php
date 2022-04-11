@@ -3,7 +3,7 @@
 $args = array( 
 	'post_type'   => 'post',
 	'post_status' => 'publish',
-    'posts_per_pag' => '0',
+    'posts_per_pag' => '-1',
     'orderby' => 'date',
     'order' => 'DESC',
 );
