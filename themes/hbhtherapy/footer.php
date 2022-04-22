@@ -253,12 +253,14 @@
             <div class="copy-privacy">
                 <hr>
                 <ul>
-                    <li><a href="">Privacy Policy & Terms of Use</a></li>
-                    <li><a href="">Sitemap</a></li>
+                    <?php $privacy_page_link = get_field( 'privacy_page_link', 'option' ); ?>
+                    <li><a href="<?php echo esc_url( $privacy_page_link); ?>">Privacy Policy & Terms of Use</a></li>
+                    <?php $sitemap_link = get_field( 'sitemap_link', 'option' ); ?>
+                    <li><a href="<?php echo esc_url( $sitemap_link); ?>">Sitemap</a></li>
                     <li>&copy; <?php echo date("Y"); ?> Handel Behvioral Health</li>
                 </ul> 
 
-                <p>HBH is currently working towards complete Accessibility of this website. If you have any questions, comments or concerns about this website please send us a message.</p>
+                <p><?php the_field( 'subtext', 'option' ); ?></p>
             </div>
 
         </div>
