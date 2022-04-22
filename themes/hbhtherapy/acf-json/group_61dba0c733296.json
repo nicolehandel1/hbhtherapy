@@ -193,7 +193,7 @@
         },
         {
             "key": "field_6245cdcf3d462",
-            "label": "Blog",
+            "label": "Blog\/Services\/Treatments & Therapy",
             "name": "",
             "type": "accordion",
             "instructions": "",
@@ -229,7 +229,7 @@
         },
         {
             "key": "field_61f6205c68c7e",
-            "label": "Blog Author Pretext",
+            "label": "Author Pretext",
             "name": "blog_author_pretext",
             "type": "text",
             "instructions": "",
@@ -764,5 +764,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1650599610
+    "modified": 1650642112
 }
