@@ -9,6 +9,15 @@
 
 ?>
 
+<style>
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #085962;
+}</style>
+
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<div class="section blg-info-section">
