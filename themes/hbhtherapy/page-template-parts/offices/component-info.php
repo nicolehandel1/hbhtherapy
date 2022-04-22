@@ -3,21 +3,6 @@ $insurance = get_terms( array(
     'taxonomy' => 'clinician-insurance',
     'hide_empty' => false, ) );
 ?>
-<style>
-    .office-subtitle {
-        color: #76559A;
-    }
-    .slb_data_content {
-        display: none;
-    }
-    #slb_viewer_wrap .slb_theme_slb_baseline .slb_container {
-        padding: 0px;
-    }
-    #slb_viewer_wrap .slb_theme_slb_baseline .slb_viewer_overlay {
-        background-color: #fff;
-    }
-</style>
-
 <div class="section clin-info-section">
     <div class="section-content clin-info-content">
         <div class="sidebar">
@@ -75,7 +60,7 @@ $insurance = get_terms( array(
                 <?php while ( have_rows( 'blog_content' ) ) : the_row(); ?>
                     <?php if ( get_row_layout() == 'section_title' ) : ?>
             
-            <h1 class="blog-subtitle office-subtitle"><?php the_sub_field( 'blog_section_title' ); ?></h1>
+            <h2 class="blog-subtitle office-subtitle"><?php the_sub_field( 'blog_section_title' ); ?></h2>
             
                     <?php elseif ( get_row_layout() == 'section_content' ) : ?>
             

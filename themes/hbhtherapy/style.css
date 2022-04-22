@@ -2823,6 +2823,7 @@ About Page
     }
 }
 /*----------------- Offices --------------------*/
+
 .abtsection {
     background-color: transparent;
     transition: 1s ease;
@@ -2855,6 +2856,22 @@ About Page
 
 .office-calltoaction {
     background-color: #FAF8F4;
+}
+
+h2.office-subtitle {
+    color: #76559A;
+}
+
+.slb_data_content {
+    display: none;
+}
+
+#slb_viewer_wrap .slb_theme_slb_baseline .slb_container {
+    padding: 0px;
+}
+
+#slb_viewer_wrap .slb_theme_slb_baseline .slb_viewer_overlay {
+    background-color: #fff;
 }
 
 /* ===== Pins on the map ===== */

@@ -10,23 +10,31 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
 
-	<?php hbhtherapy_post_thumbnail(); ?>
+	<div class="section blg-info-section">
+    <div class="section-content blog-info-contnt">
+        
+        <div class="single-content" style="margin-top: 100px;">
+            
+            <h1 class="blog-title office-title"><?php the_title(); ?></h1>
+            
+            <div class="entry-content"><?php the_content(); ?></div>
+            
+        </div>
+        
+        <div class="sidebar">
+            
+            <p class="clinician-subtitle">Appointments</p>
+            <hr>
+            <a class="phone" href="tel:<?php the_field( 'header_phone_number_link', 'option' ); ?>"><?php the_field( 'header_phone_number', 'option' ); ?></a>
 
-	<div class="entry-content">
-		<?php
-		the_content();
+            <a class="btn" href="" target="_blank"><?php the_field( 'clinician_button_label', 'option' ); ?></a>
+            
+            <a class="archive-link" href="/counselors-appointments/"><?php the_field( 'clinicians_view_all_label', 'option' ); ?></a>
 
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'hbhtherapy' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
+        </div>
+
+    </div>
+</div>
 
 </article><!-- #post-<?php the_ID(); ?> -->
