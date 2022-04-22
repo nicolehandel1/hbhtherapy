@@ -15,7 +15,11 @@ h2 {
     font-size: 24px;
     line-height: 32px;
     color: #085962;
-}</style>
+}
+.page {
+    margin: 0; 
+}
+</style>
 
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
