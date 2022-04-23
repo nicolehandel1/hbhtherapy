@@ -64,7 +64,7 @@
             <!-- Overlay content -->
             <div class="menu-right">
             <div class="menu-section-wrap" id="menu">
-                <div class="menu-content">
+                <div class="menu-content" style="background-image: url(<?php the_field( 'main_menu_image', 'option' ); ?>)";>
                     <div class="menu" id="menu-content">
                         <a href="javascript:void(0);" class="menu-btn" onclick="navToggle()">
                                 <div class="hamburger">
