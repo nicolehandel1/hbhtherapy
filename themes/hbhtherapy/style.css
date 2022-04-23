@@ -1427,7 +1427,7 @@ Home Page
 
 .home-tagline {
     color: #008587;
-    font-size: 65pt;
+    font-size: 50pt;
     line-height: 1em;
     margin-bottom: 0px;
 }
@@ -1442,7 +1442,7 @@ Home Page
 
 @media only screen and (min-width: 700px) and (max-width: 1680px) {
     .home-tagline {
-        font-size: 5vw;
+        font-size: 3.5vw;
     }
 
     .home-call-wrap h3 {
