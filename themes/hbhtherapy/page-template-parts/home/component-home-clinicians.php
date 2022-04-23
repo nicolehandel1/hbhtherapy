@@ -1,5 +1,17 @@
+<style>
+@media only screen and (max-width: 1100px) and (min-width: 700px)  {
+    a.clinician-card-name {
+        font-size: 1.1em;
+    }
+    .clinician-card-container a.btn {
+        font-size: 16px;
+    }
+    a.clinician-card-link {
+        font-size 14px;
+    }
+    }
+</style>
 <?php 
-
 if ( have_rows( 'hm-clinicians' ) ) : 
 	while ( have_rows( 'hm-clinicians' ) ) : the_row();  
 
