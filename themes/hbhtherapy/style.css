@@ -970,6 +970,7 @@ a.btn {
     background-image: url(/Menu-Butterfly@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 }
 
 .menu {
@@ -1043,6 +1044,9 @@ a.btn {
 
 .hbhmenu a {
     color: #F4CC9D;
+    box-shadow: -1px 2px 5px -2px #008587;
+    -webkit-box-shadow: -1px 2px 5px -2px #008587;
+    -moz-box-shadow: -1px 2px 5px -2px #008587;
     text-decoration: none;
 }
 
