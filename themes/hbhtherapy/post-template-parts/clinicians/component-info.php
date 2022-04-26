@@ -117,7 +117,7 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
 	           <u><?php while ( have_rows( 'articles' ) ) : the_row(); $clinician_articles = get_sub_field( 'clinician_articles' ); ?>
             
 		      <?php if ( $clinician_articles ) : $post = $clinician_articles; setup_postdata( $post ); ?> 
-			     <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+			     <li class="bio-article"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 		      <?php wp_reset_postdata(); endif; ?>
             
 	       <?php endwhile; ?></u>

@@ -2289,6 +2289,11 @@ ul.sidebar-bullets {
     margin-bottom: 10px;
 }
 
+.bio-article {
+    list-style-type: none;
+    color: #008587;
+}
+
 .clin-info-content h2 {
     color: #085962;
 }
