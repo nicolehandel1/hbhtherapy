@@ -2297,6 +2297,10 @@ ul.sidebar-bullets {
     color: #008587;
 }
 
+.bio-article a:hover {
+    color: #F7931E;
+}    
+
 .clin-info-content h2 {
     color: #085962;
 }
