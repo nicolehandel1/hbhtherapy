@@ -3157,3 +3157,19 @@ h2.office-subtitle {
     }
 }
 /*----------------- Careers --------------------*/
+
+.career-tl {
+    text-align: left;
+    width: 100%;
+    padding: 0px;
+}
+.career-title-wrap {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+@media only screen and (max-width: 800px) {
+   .career-tl {
+        padding: 30px 0px 0px 0px;
+    }     
+}

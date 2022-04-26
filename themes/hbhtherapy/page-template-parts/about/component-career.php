@@ -1,19 +1,17 @@
-<style>
-    .career-tl {
-        text-align: left;
-        width: 100%;
-    }
-</style>
-<div class="section abt-section" id="career">
-    <div class="section-content">
+<div class="section srvpg-hero-section abt-section" id="career">
+    <div class="section-content abt-content">
         
-        <div class="careerinfo-wrap">
-            <h1 class="pg-title abt-title career-tl">Careers</h1>
-            <p class="srvpg-summary"><?php the_field( 'about_hero_text' ); ?></p>
+        <div class="srvpg-summary-wrap">
+            <h1 class="pg-title abt-title career-tl"><?php the_field( 'careers_section_title' ); ?></h1>
+            <p class=""><?php the_field( 'careers_section_content' ); ?></p>
+            
+            <?php $careers_button_link = get_field( 'careers_button_link' ); if ( $careers_button_link ) : ?>
+                <a class="btn" href="<?php echo esc_url( $careers_button_link); ?>"><?php the_field( 'Careers_button_label' ); ?></a>
+            <?php endif; ?>
         </div>
         
-        <div class="careerimg-wrap">
-        </div>    
+        <div class="single-hero-info srvpg-title-wrap career-title-wrap abt-title-wrap" style="background-image: url('<?php the_field( 'careers_image' ); ?>')">
+        </div>
 
     </div>
 </div>
