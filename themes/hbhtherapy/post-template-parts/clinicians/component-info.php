@@ -108,6 +108,22 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
             <!------------- Call to Action ------------->
 
             <p><?php the_field( 'clinician-call_to_action' ); ?></p>
+            
+            <!------------- Articles ------------->
+            
+            <?php if ( have_rows( 'articles' ) ) : ?>
+            <p class="clinician-subtitle">Authored Articles</p>
+            
+	           <u><?php while ( have_rows( 'articles' ) ) : the_row(); $clinician_articles = get_sub_field( 'clinician_articles' ); ?>
+            
+		      <?php if ( $clinician_articles ) : $post = $clinician_articles; setup_postdata( $post ); ?> 
+			     <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+		      <?php wp_reset_postdata(); endif; ?>
+            
+	       <?php endwhile; ?></u>
+            <?php else : endif; ?>
+            
+            
         </div>
 
         
