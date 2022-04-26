@@ -216,6 +216,25 @@
             "maxlength": ""
         },
         {
+            "key": "field_62675eab42931",
+            "label": "Articles Section Title",
+            "name": "articles_section_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_6245cdcf3d462",
             "label": "Blog\/Services\/Treatments & Therapy",
             "name": "",
@@ -788,5 +807,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1650746744
+    "modified": 1650941633
 }

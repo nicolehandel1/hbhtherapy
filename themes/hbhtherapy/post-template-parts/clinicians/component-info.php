@@ -112,7 +112,7 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
             <!------------- Articles ------------->
             
             <?php if ( have_rows( 'articles' ) ) : ?>
-            <p class="clinician-subtitle">Authored Articles</p>
+            <p class="clinician-subtitle"><?php the_field( 'articles_section_title', 'option' ); ?></p>
             
 	           <u><?php while ( have_rows( 'articles' ) ) : the_row(); $clinician_articles = get_sub_field( 'clinician_articles' ); ?>
             
