@@ -2291,6 +2291,9 @@ ul.sidebar-bullets {
 
 .bio-article {
     list-style-type: none;
+}
+
+.bio-article a {
     color: #008587;
 }
 
