@@ -3126,16 +3126,30 @@ h2.office-subtitle {
     color: #F7931E;
 }
 
+.covid-content {
+    padding-bottom: 50px;
+}
+
 .covid-sum {
     text-align: center;
     color: #fff;
     margin: auto;
+    padding: 0 10px 20px 10px;
 }
+
+.covid-content .btn:hover {
+    background: #F7931E;
+    color: #fff;
+}
+    
+    .flex-center {
+        display: flex;
+        justify-content: center;
+    }    
 
 @media only screen and (max-width: 800px) {
     .covid-sum {
         text-align: left;
     }
 }
-
 /*----------------- Careers --------------------*/
