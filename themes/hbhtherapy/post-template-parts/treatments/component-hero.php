@@ -8,7 +8,7 @@ $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
 
         <div class="single-hero-info blog-hero-info">
             
-            <a class="archive-link" href="/treatment-therapy/">HBH Treatment & Therapies</a>
+            <a class="archive-link" href="/mental-health-treatment-therapy/">HBH Treatment & Therapies</a>
 
             <h1 class="blog-title"><?php the_title(); ?></h1>
 
