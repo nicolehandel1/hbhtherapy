@@ -29,7 +29,8 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'AW-CONVERSION_ID');
-
+        
+    gtag('config', 'UA-227614035-1');
     </script>
     <?php wp_head(); ?>
 </head>
