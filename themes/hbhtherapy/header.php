@@ -24,7 +24,6 @@
     <meta property="og:url" content="<?php the_permalink(); ?>"/>
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"></script>
     <script>
-
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());

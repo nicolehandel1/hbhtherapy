@@ -44,7 +44,7 @@
                 <div class="bauthor-wrap">
                     <img class="bauthor-img" src="<?php the_field( 'author_bioheadshot' ); ?>" data-rjs="2" alt="<?php the_field( 'author_bioname' ); ?> Headshot" />
                     <div class="">
-                        <h4 class="bauthor-name"><?php the_field( 'author_bioname' ); ?></h4>
+                        <h4 class="bauthor-name" rel="author"><?php the_field( 'author_bioname' ); ?></h4>
                         <p class="bauthor-bio"><?php the_field( 'author_bio' ); ?></p>
                     </div>
                 </div><?php wp_reset_postdata(); ?>
@@ -54,7 +54,7 @@
                 <div class="bauthor-wrap">
                     <img class="bauthor-img" src="<?php the_field( 'clinician-headshot' ); ?>" data-rjs="2" alt="<?php the_title( ); ?> Headshot" />
                     <div class="">
-                        <h4 class="bauthor-name"><?php the_title( ); ?>, <?php $license = wp_get_post_terms($post->ID, 'clinician-licensure'); if ($license) { $out = array(); foreach ($license as $license) { $out[] = '' .$license->name .''; } echo join( ', ',$out ); } ?></h4>
+                        <h4 class="bauthor-name" rel="author"><?php the_title( ); ?>, <?php $license = wp_get_post_terms($post->ID, 'clinician-licensure'); if ($license) { $out = array(); foreach ($license as $license) { $out[] = '' .$license->name .''; } echo join( ', ',$out ); } ?></h4>
                         <p class="bauthor-bio"><?php the_field( 'author_summary' ); ?> <a href="<?php the_permalink(); ?>" class="bauthor-more">More About Author →</a></p>
                     </div>
                 </div><?php wp_reset_postdata(); ?>

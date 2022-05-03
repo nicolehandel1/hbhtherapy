@@ -21,11 +21,11 @@ $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
                     
                 <?php if ( get_row_layout() == 'other' ) : $blog_author_other = get_sub_field( 'blog_author_other' ); if ( $blog_author_other ) :  $post = $blog_author_other;  setup_postdata( $post ); ?> 
             
-                <p class="blog-author"><?php the_sub_field( 'text_before_name_copy' ); ?> <?php the_title(); ?></p><?php wp_reset_postdata(); ?>
+                <p class="blog-author" rel="author"><?php the_sub_field( 'text_before_name_copy' ); ?> <?php the_title(); ?></p><?php wp_reset_postdata(); ?>
             
                 <?php endif; elseif ( get_row_layout() == 'clinician' ) : $blog_authot_clincician = get_sub_field( 'blog_authot_clincician' ); if ( $blog_authot_clincician ) : $post = $blog_authot_clincician;  setup_postdata( $post ); ?>
             
-                <p><?php the_sub_field( 'text_before_name' ); ?> <a class="blog-author" href="<?php the_permalink(); ?>"><?php the_title( ); ?>, <?php $license = wp_get_post_terms($post->ID, 'clinician-licensure'); if ($license) { $out = array(); foreach ($license as $license) { $out[] = '' .$license->name .''; } echo join( ', ',$out ); } ?></a></p><?php wp_reset_postdata(); ?>
+                <p><?php the_sub_field( 'text_before_name' ); ?> <a class="blog-author" rel="author" href="<?php the_permalink(); ?>"><?php the_title( ); ?>, <?php $license = wp_get_post_terms($post->ID, 'clinician-licensure'); if ($license) { $out = array(); foreach ($license as $license) { $out[] = '' .$license->name .''; } echo join( ', ',$out ); } ?></a></p><?php wp_reset_postdata(); ?>
             
             <?php endif; endif; endwhile; else: endif; ?>
 
