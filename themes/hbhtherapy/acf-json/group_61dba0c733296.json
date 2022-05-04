@@ -751,7 +751,7 @@
             "key": "field_626225fd5ee73",
             "label": "Sitemap Link",
             "name": "sitemap_link",
-            "type": "page_link",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -760,14 +760,11 @@
                 "class": "",
                 "id": ""
             },
-            "post_type": [
-                "post",
-                "page"
-            ],
-            "taxonomy": "",
-            "allow_null": 0,
-            "allow_archives": 1,
-            "multiple": 0
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
             "key": "field_626226145ee74",
@@ -807,5 +804,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1650941633
+    "modified": 1651686951
 }

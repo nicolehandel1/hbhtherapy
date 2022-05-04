@@ -255,8 +255,7 @@
                 <ul>
                     <?php $privacy_page_link = get_field( 'privacy_page_link', 'option' ); ?>
                     <li><a href="<?php echo esc_url( $privacy_page_link); ?>">Privacy Policy & Terms of Use</a></li>
-                    <?php $sitemap_link = get_field( 'sitemap_link', 'option' ); ?>
-                    <li><a href="<?php echo esc_url( $sitemap_link); ?>">Sitemap</a></li>
+                    <li><a href="<?php the_field( 'sitemap_link', 'option' ); ?>">Sitemap</a></li>
                     <li>&copy; <?php echo date("Y"); ?> Handel Behvioral Health</li>
                 </ul> 
 
