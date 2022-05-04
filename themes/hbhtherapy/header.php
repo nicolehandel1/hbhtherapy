@@ -22,14 +22,14 @@
     <meta property="og:title" content="<?php the_title() ?>"/>
     <meta property="og:image" content="<?php the_post_thumbnail() ?>"/>
     <meta property="og:url" content="<?php the_permalink(); ?>"/>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-227614035-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-CONVERSION_ID');
-        
-    gtag('config', 'UA-227614035-1');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-227614035-1');
     </script>
     <?php wp_head(); ?>
 </head>
