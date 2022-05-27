@@ -190,6 +190,25 @@
             "max": ""
         },
         {
+            "key": "field_629114cca42b1",
+            "label": "Psychology Today Verification",
+            "name": "psychology_today_verification",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
             "key": "field_61f1926b13568",
             "label": "Call To Action",
             "name": "clinician-call_to_action",
@@ -291,5 +310,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1650940919
+    "modified": 1653675236
 }

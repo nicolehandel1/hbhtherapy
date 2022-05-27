@@ -84,6 +84,8 @@ $insurance = get_terms( array(
                 <?php // No layouts found ?>
             <?php endif; ?>
             
+            <?php the_field( 'psychology_today_verification' ); ?>
+            
         </div>
 
     </div>

@@ -109,6 +109,10 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
 
             <p><?php the_field( 'clinician-call_to_action' ); ?></p>
             
+            <!-----------Psychology Today ----------------->
+            
+            <?php the_field( 'psychology_today_verification' ); ?>
+            
             <!------------- Articles ------------->
             
             <?php if ( have_rows( 'articles' ) ) : ?>
