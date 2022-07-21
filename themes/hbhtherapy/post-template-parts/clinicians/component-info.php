@@ -83,10 +83,6 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
             <?php endif; ?>
 
             <?php endwhile; else: endif; ?>
-            
-            
-
-            
 
             <!------------- Specialties & Modalities ------------->
             
@@ -127,10 +123,7 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
 	       <?php endwhile; ?></u>
             <?php else : endif; ?>
             
-            
         </div>
-
-        
 
     </div>
 </div>

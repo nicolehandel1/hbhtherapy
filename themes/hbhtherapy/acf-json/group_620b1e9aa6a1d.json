@@ -545,6 +545,42 @@
                     "maxlength": ""
                 }
             ]
+        },
+        {
+            "key": "field_62d8c37d74b54",
+            "label": "Schema",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_62d8c34d74b53",
+            "label": "Local Schema",
+            "name": "local-schema",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
         }
     ],
     "location": [
@@ -575,5 +611,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1653675529
+    "modified": 1658373014
 }
