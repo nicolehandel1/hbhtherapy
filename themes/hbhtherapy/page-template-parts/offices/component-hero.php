@@ -53,7 +53,7 @@ $officeBg =  get_field( 'office_header_image');
     }
 }
 </style>
-<div class="hero-wrap">
+<div class="">
 
     <div class="section-content single-hero-content ofchero-wrap" style="background-image: url('<?php echo $officeBg ; ?>');">
 
