@@ -59,7 +59,7 @@ $officeBg =  get_field( 'office_header_image');
 
             <div class="office-hero-info">
                 <h2 class="office-title"><?php the_field( 'page_title' ); ?></h2>
-                <p class="office-details"><?php the_field( 'address' ); ?></p>
+                <address class="office-details"><?php the_field( 'address' ); ?></address>
                 <p class="office-details"><?php the_field( 'hours' ); ?></p>
                 <a class="phone office-phone" href="tel:<?php the_field( 'phone_link' ); ?>"><?php the_field( 'phone_label' ); ?></a>
                 

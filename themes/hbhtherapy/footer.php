@@ -219,11 +219,11 @@
                         <?php if ( have_rows( 'footer-locations', 'option' ) ) : while ( have_rows( 'footer-locations', 'option' ) ) : the_row(); 
                             $location_page_link = get_sub_field( 'location_page_link' ); ?>
                         
-                        <div class="ft-location">
+                        <address class="ft-location">
                             <a href="<?php echo esc_url( $location_page_link); ?>"><h4 class="ft-titlink"><?php the_sub_field( 'location_name' ); ?></h4></a>
                             <a class="ftphone" href="tel:<?php the_sub_field( 'phone_link' ); ?>;"><?php the_sub_field( 'phone_label' ); ?></a>
                             <p class="ftaddress"><?php the_sub_field( 'address' ); ?></p>
-                        </div>
+                        </address>
                         
                         <?php endwhile;  else :  endif; ?>
                         
