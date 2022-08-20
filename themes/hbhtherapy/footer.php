@@ -232,9 +232,9 @@
                     <div class="footer-content ftinfo">
                         <div class="ft-info">
                             <h4>Shop</h4>
-                            <a class="ftphone" href="<?php the_field( 'store_link', 'option' ); ?>"><?php the_field( 'store-label', 'option' ); ?></a>
+                            <a class="ftphone" href="<?php the_field( 'store_link', 'option' ); ?>" target="_blank"><?php the_field( 'store-label', 'option' ); ?></a>
                             <h4 class="ft-titlink" style="margin-top: 25px;">Contact</h4>
-                            <a class="ftphone" href="tel:<?php the_field( 'contact_phone_link', 'option' ); ?>;" target="_blank"><?php the_field( 'contact_phone_label', 'option' ); ?></a>
+                            <a class="ftphone" href="tel:<?php the_field( 'contact_phone_link', 'option' ); ?>;"><?php the_field( 'contact_phone_label', 'option' ); ?></a>
                             <a class="ftphone" href="mailto:<?php the_field( 'contact_email', 'option' ); ?>"><?php the_field( 'contact_email', 'option' ); ?></a>
                             <?php $career_page_link = get_field( 'career_page_link', 'option' ); ?>
                                 <?php if ( $career_page_link ) : ?>
