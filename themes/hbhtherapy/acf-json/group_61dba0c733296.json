@@ -505,6 +505,61 @@
             "endpoint": 0
         },
         {
+            "key": "field_6300e2b0b94e0",
+            "label": "Store",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_6300e240b94de",
+            "label": "Store Label",
+            "name": "store-label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6300e278b94df",
+            "label": "Store Link",
+            "name": "store_link",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_62621df0a10bc",
             "label": "Contact",
             "name": "",
@@ -804,5 +859,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1651686951
+    "modified": 1661002432
 }
