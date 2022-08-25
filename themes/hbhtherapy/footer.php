@@ -256,6 +256,7 @@
                 <hr>
                 <ul>
                     <?php $privacy_page_link = get_field( 'privacy_page_link', 'option' ); ?>
+                    <li><a href="http://intranet.hbhtherapy.com/">Employees</a></li>
                     <li><a href="<?php echo esc_url( $privacy_page_link); ?>">Privacy Policy & Terms of Use</a></li>
                     <li><a href="<?php the_field( 'sitemap_link', 'option' ); ?>" target="_blank">Sitemap</a></li>
                     <li>&copy; <?php echo date("Y"); ?> Handel Behvioral Health</li>
