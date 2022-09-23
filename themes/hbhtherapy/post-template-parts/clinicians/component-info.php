@@ -114,13 +114,42 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
             <?php if ( have_rows( 'articles' ) ) : ?>
             <p class="clinician-subtitle"><?php the_field( 'articles_section_title', 'option' ); ?></p>
             
-	           <u><?php while ( have_rows( 'articles' ) ) : the_row(); $clinician_articles = get_sub_field( 'clinician_articles' ); ?>
+	           <div class="article-grid" data-category="transition"><?php while ( have_rows( 'articles' ) ) : the_row(); $clinician_articles = get_sub_field( 'clinician_articles' ); ?>
             
-		      <?php if ( $clinician_articles ) : $post = $clinician_articles; setup_postdata( $post ); ?> 
-			     <li class="bio-article"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+		      <?php if ( $clinician_articles ) : $post = $clinician_articles; setup_postdata( $post ); 
+                   $imageID = get_field('blog_header_image');
+            $image = wp_get_attachment_image_src( $imageID, 'full' ); 
+            $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
+            $date = get_the_date('F j, Y', $post->ID); ?> 
+            
+            <div class="article-grid-item-wrap"><a class="" href="<?php the_permalink(); ?>">
+
+                    <img class="clinician-single-headshot" src="<?php echo $image[0]; ?>" data-rjs="2" alt="<?php echo $alt_text; ?>" />
+
+                    <h4><?php the_title() ?></h4>
+
+                    <?php if ( have_rows( 'blog_author' ) ): ?>
+                    <?php while ( have_rows( 'blog_author' ) ) : the_row(); ?>
+                    <?php if ( get_row_layout() == 'clinician' ) : ?>
+                    <?php $blog_authot_clincician = get_sub_field( 'blog_authot_clincician' ); ?>
+                    <?php if ( $blog_authot_clincician ) : ?>
+                    <?php $post = $blog_authot_clincician; ?>
+                    <?php setup_postdata( $post ); ?>
+
+                    <?php endif; ?>
+                    <?php endif; ?>
+                    <?php endwhile; ?>
+                    <?php else: ?>
+                    <?php // No layouts found ?>
+                    <?php endif; ?>
+
+                    <p class="blog-date"><?php echo $date; ?></p>
+
+                </a></div>
+                   
 		      <?php wp_reset_postdata(); endif; ?>
             
-	       <?php endwhile; ?></u>
+                   <?php endwhile; ?></div>
             <?php else : endif; ?>
             
         </div>
