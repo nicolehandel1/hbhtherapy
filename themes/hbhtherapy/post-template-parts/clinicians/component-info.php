@@ -19,6 +19,12 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
 
         <div class="sidebar">
             
+            <?php if( get_field('reviews_shortcode') ): ?>
+            <p class="clinician-subtitle">Reviews</p>
+            <hr>
+            <?php the_field( 'reviews_shortcode' ); ?>
+            <?php endif; ?>
+            
             <?php if ($services) { $out = array(); ?>
             <p class="clinician-subtitle">Services</p>
             <hr>
