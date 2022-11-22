@@ -290,6 +290,25 @@
                     "ui": 1
                 }
             ]
+        },
+        {
+            "key": "field_637d4a9e194d8",
+            "label": "Reviews Shortcode",
+            "name": "reviews_shortcode",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "text",
+            "media_upload": 1,
+            "toolbar": "full",
+            "delay": 0
         }
     ],
     "location": [
@@ -310,5 +329,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1653675236
+    "modified": 1669158108
 }
