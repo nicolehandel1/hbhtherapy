@@ -293,9 +293,9 @@
         },
         {
             "key": "field_637d84466bc4a",
-            "label": "Review Button Link",
-            "name": "review_button_link",
-            "type": "text",
+            "label": "Clinician Review Link",
+            "name": "clinician_review_link",
+            "type": "url",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -305,10 +305,7 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "placeholder": ""
         },
         {
             "key": "field_637d4a9e194d8",
@@ -348,5 +345,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1669170266
+    "modified": 1669171773
 }
