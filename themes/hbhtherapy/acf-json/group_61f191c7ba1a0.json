@@ -295,7 +295,7 @@
             "key": "field_637d84466bc4a",
             "label": "Clinician Review Link",
             "name": "clinician_review_link",
-            "type": "url",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -305,7 +305,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": ""
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
             "key": "field_637d4a9e194d8",
@@ -345,5 +348,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1669171773
+    "modified": 1669179111
 }
