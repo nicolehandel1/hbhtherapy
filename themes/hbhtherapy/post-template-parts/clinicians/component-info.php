@@ -25,7 +25,7 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
                 <?php the_field( 'reviews_shortcode' ); ?>
             <?php endif; ?>
             <?php if( get_field('clinician_review_link') ): ?>
-                <a class="btn" href="<?php the_field( 'clinician_review_link' ); ?>" target="_blank"><span class="dashicons dashicons-google"></span> Write a review</a>
+                <a class="btn" href="<?php the_field( 'clinician_review_link' ); ?>" target="_blank"><span class="dashicons dashicons-google"></span> Write A Review</a>
             <?php endif; ?>
             
             <?php if ($services) { $out = array(); ?>
