@@ -292,6 +292,25 @@
             ]
         },
         {
+            "key": "field_637d84466bc4a",
+            "label": "Review Button Link",
+            "name": "review_button_link",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_637d4a9e194d8",
             "label": "Reviews Shortcode",
             "name": "reviews_shortcode",
@@ -329,5 +348,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1669158108
+    "modified": 1669170266
 }
