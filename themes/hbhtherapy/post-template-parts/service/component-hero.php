@@ -33,6 +33,20 @@ $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
         
         <div class="single-clinician-heroimg blog-hero-img">
             <img class="clinician-single-headshot" src="<?php echo $image[0]; ?>" data-rjs="2" alt="<?php echo $alt_text; ?>" />
+            
+            <?php if ( have_rows( 'img-artist', $imageID ) ):  while ( have_rows( 'img-artist', $imageID ) ) : the_row(); ?>
+            
+                <?php if ( get_row_layout() == 'site_author' ) : $img_author = get_sub_field( 'img-author' ); if ( $img_author ) : $post = $img_author; setup_postdata( $post ); ?> 
+            
+                    <p class="blog-author" rel="artist"><a href="<?php the_permalink(); ?>">Artwork by <?php the_title(); ?></a></p>
+            
+                <?php wp_reset_postdata(); endif; ?>
+                    
+                <?php elseif ( get_row_layout() == 'custom_author' ) : ?>
+            
+                    <p class="blog-author" rel="artist">Artwork by <?php the_sub_field( 'cst-image_author' ); ?></p>
+            
+                <?php endif; endwhile; else: endif; ?>
         </div>
 
     </div>

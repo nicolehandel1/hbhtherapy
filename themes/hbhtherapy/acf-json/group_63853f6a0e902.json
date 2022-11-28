@@ -1,0 +1,105 @@
+{
+    "key": "group_63853f6a0e902",
+    "title": "Media",
+    "fields": [
+        {
+            "key": "field_6385401fea3e4",
+            "label": "Image Credit",
+            "name": "img-artist",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_6385403facbae": {
+                    "key": "layout_6385403facbae",
+                    "name": "site_author",
+                    "label": "Site Author",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63854042ea3e5",
+                            "label": "Author",
+                            "name": "img-author",
+                            "type": "post_object",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "author"
+                            ],
+                            "taxonomy": "",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "return_format": "object",
+                            "ui": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6385406aea3e6": {
+                    "key": "layout_6385406aea3e6",
+                    "name": "custom_author",
+                    "label": "Custom Author",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63854073ea3e7",
+                            "label": "Custom Author",
+                            "name": "cst-image_author",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "attachment",
+                "operator": "==",
+                "value": "image"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1669678211
+}
