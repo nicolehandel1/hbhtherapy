@@ -1,3 +1,10 @@
+<style>
+    .ill-cap {
+        margin: 0;
+        font-size: 12pt;
+        color: grey;
+    }
+</style>
 <?php 
 $imageID = get_field('blog_header_image');
 $image = wp_get_attachment_image_src( $imageID, 'full' ); 
@@ -39,13 +46,13 @@ $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
             
                 <?php if ( get_row_layout() == 'site_author' ) : $img_author = get_sub_field( 'img-author' ); if ( $img_author ) : $post = $img_author; setup_postdata( $post ); ?> 
             
-                    <p class="blog-author" rel="artist"><a href="<?php the_permalink(); ?>">Artwork by <?php the_title(); ?></a></p>
+                    <p class="blog-author ill-cap" rel="artist"><a href="<?php the_permalink(); ?>">Illustration by <?php the_title(); ?></a></p>
             
                 <?php wp_reset_postdata(); endif; ?>
                     
                 <?php elseif ( get_row_layout() == 'custom_author' ) : ?>
             
-                    <p class="blog-author" rel="artist">Artwork by <?php the_sub_field( 'cst-image_author' ); ?></p>
+                    <p class="blog-author ill-cap" rel="artist">Illustration by <?php the_sub_field( 'cst-image_author' ); ?></p>
             
                 <?php endif; endwhile; else: endif; ?>
             
