@@ -366,12 +366,11 @@
         "comments",
         "revisions",
         "author",
-        "categories",
         "tags",
         "send-trackbacks"
     ],
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1645646827
+    "modified": 1675208407
 }

@@ -1,5 +1,31 @@
-<?php
+<style>
+    .blog-filters {
+        width:80%; 
+        flex-wrap: nowrap;
+    }
+    p.archive-link {
+    color: #008587;
+    margin-top: 19px;
+    margin-bottom: -11px;
+    font-weight: 800;
+    font-size: 16px;
+}
+    @media only screen and (max-width: 1200px) {
+    .blog-filters {
+        flex-wrap: wrap;
+    }
+    .blog-filters .select {
+    width: 100%;
+}    
+    }
+    @media only screen and (max-width: 700px) {
+    .filter-wrap {
+    justify-content: flex-start; 
+    }
+    }
+</style>
 
+<?php
 $args = array( 
 	'post_type'   => 'post',
 	'post_status' => 'publish',
@@ -8,6 +34,13 @@ $args = array(
     'order' => 'DESC',
 );
 $posts = new WP_Query( $args );
+
+
+$cats = get_categories( array(
+    'taxonomy' => 'category',
+    'field'    => 'term_id',
+));
+
 
 ?>
 
@@ -18,12 +51,21 @@ $posts = new WP_Query( $args );
 <div class="section-content blogpg-section-content">
     <div class="filters-content">
         <div class="filter-wrap">
-            <div class="filters">
-
+            <div class="filters blog-filters">
+                
                 <p class="search">
                     <input type="text" class="quicksearch" placeholder="Search..." />
                     <img src="<?php the_field( 'search_icon', 'option' ); ?>" data-rjs="2" alt="search icon" />
                 </p>
+                
+                <div class="select"  style="margin: 25px;"><select value-group="locations" class="button-group js-radio-button-group filters-select" data-width="100%">
+                    <option title="button is-checked" value="">Filter</option>
+                    <option title="button is-checked" value="">All</option>
+
+                    <?php foreach ($cats as $cat) {
+                    echo '<option class="button" value=".'.$cat->slug.'">'.$cat->name.'</option>'; }?>
+
+                </select></div> 
 
             </div>
         </div>
@@ -38,9 +80,10 @@ $posts = new WP_Query( $args );
             $image = wp_get_attachment_image_src( $imageID, 'full' ); 
             $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
             $date = get_the_date('F j, Y', $post->ID);
+            $categories = get_the_category( $post->ID );
             ?>
 
-        <div class="grid-item blog-grid-item" data-category="transition">
+        <div class="grid-item blog-grid-item <?php foreach($categories as $cd){ echo $cd->slug;} ?>" data-category="transition">
 
             <div class="blog-grid-item-wrap">
 
@@ -48,6 +91,7 @@ $posts = new WP_Query( $args );
 
                     <img class="clinician-single-headshot" src="<?php echo $image[0]; ?>" data-rjs="2" alt="<?php echo $alt_text; ?>" />
 
+                    <!-- <p class="archive-link"><?php foreach($categories as $cd){ echo $cd->cat_name;} ?></p> --->
                     <h3><?php the_title() ?></h3>
 
                     <?php if ( have_rows( 'blog_author' ) ): ?>
@@ -119,6 +163,20 @@ var $grid = $('.grid').isotope({
 // layout Isotope after each image loads
 $grid.imagesLoaded().progress( function() {
   $grid.isotope('layout');
+});
+
+    // store filter for each group
+$('.filters').on('change', function (event) {
+    var $select = $(event.target);
+    // get group key
+    var filterGroup = $select.attr('value-group');
+    // set filter for group
+    buttonFilters[filterGroup] = event.target.value;
+    // combine filters
+    buttonFilter = concatValues(buttonFilters);
+    console.log(buttonFilter);
+    // set filter for Isotope
+    $grid.isotope();
 });
 
 // flatten object by concatting values
