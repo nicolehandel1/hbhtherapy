@@ -46,7 +46,7 @@ $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
             
                 <?php if ( get_row_layout() == 'site_author' ) : $img_author = get_sub_field( 'img-author' ); if ( $img_author ) : $post = $img_author; setup_postdata( $post ); ?> 
             
-                    <p class="blog-author ill-cap" rel="artist"><a href="<?php the_permalink(); ?>">Illustration by <?php the_title(); ?></a></p>
+                    <p class="blog-author ill-cap" rel="artist"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
             
                 <?php wp_reset_postdata(); endif; ?>
                     
