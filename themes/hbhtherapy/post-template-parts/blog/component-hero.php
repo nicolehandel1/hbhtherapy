@@ -52,7 +52,7 @@ $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
                     
                 <?php elseif ( get_row_layout() == 'custom_author' ) : ?>
             
-                    <p class="blog-author ill-cap" rel="artist">Illustration by <?php the_sub_field( 'cst-image_author' ); ?></p>
+                    <p class="blog-author ill-cap" rel="artist"><?php the_sub_field( 'cst-image_author' ); ?></p>
             
                 <?php endif; endwhile; else: endif; ?>
             
