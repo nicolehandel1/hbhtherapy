@@ -31,7 +31,7 @@ $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
             
                 <?php endif; elseif ( get_row_layout() == 'clinician' ) : $blog_authot_clincician = get_sub_field( 'blog_authot_clincician' ); if ( $blog_authot_clincician ) : $post = $blog_authot_clincician;  setup_postdata( $post ); ?>
             
-                <?php wp_reset_postdata(); ?>
+                <p><?php the_sub_field( 'text_before_name' ); ?> <a class="blog-author" rel="author" href="<?php the_permalink(); ?>"><?php the_title( ); ?>, <?php $license = wp_get_post_terms($post->ID, 'clinician-licensure'); if ($license) { $out = array(); foreach ($license as $license) { $out[] = '' .$license->name .''; } echo join( ', ',$out ); } ?></a></p><?php wp_reset_postdata(); ?>
             
             <?php endif; endif; endwhile; else: endif; ?>
             
