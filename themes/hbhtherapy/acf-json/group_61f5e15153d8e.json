@@ -117,25 +117,6 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_6216923a2f76c",
-                            "label": "Text Before Name",
-                            "name": "text_before_name",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "By",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "maxlength": ""
-                        },
-                        {
                             "key": "field_61f5e1eff74f1",
                             "label": "Clincician",
                             "name": "blog_authot_clincician",
@@ -372,5 +353,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1675305402
+    "modified": 1675361898
 }
