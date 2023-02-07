@@ -84,6 +84,25 @@
             "maxlength": ""
         },
         {
+            "key": "field_63e27e4d30ae5",
+            "label": "Telehealth Link",
+            "name": "telehealth_link",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_62167d1cf4fda",
             "label": "Bio Content",
             "name": "clinician_bio_content",
@@ -348,5 +367,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1669179111
+    "modified": 1675787897
 }
