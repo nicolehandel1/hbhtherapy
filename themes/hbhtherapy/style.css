@@ -2034,10 +2034,6 @@ Clinicians Page
     margin: 25px;
 }
 
-.filters .select {
-    width: 48%;
-}
-
 .filters-select:hover {
     background-color: #085962;
     color: #fff;

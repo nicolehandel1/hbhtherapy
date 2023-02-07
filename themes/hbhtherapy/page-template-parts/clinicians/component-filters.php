@@ -11,6 +11,12 @@ $services = get_terms( array(
                     'hide_empty' => true,
                     'orderby' => 'id',
                     'order' => 'ASC', ));  
+
+$insurances = get_terms( array(
+                'taxonomy' => 'clinician-insurance',
+                    'hide_empty' => true,
+                    'orderby' => 'id',
+                    'order' => 'ASC', ));  
 ?>
 
 <div class="section-content">
@@ -24,6 +30,7 @@ $services = get_terms( array(
         
         <div class="filter-wrap">
             <div class="filters">
+                <!--- Locations Filter --->
                 <div class="select"><select value-group="locations" class="button-group js-radio-button-group filters-select" data-width="100%">
                     <option title="button is-checked" value="">Locations</option>
                     <option title="button is-checked" value="">View All</option>
@@ -33,7 +40,8 @@ $services = get_terms( array(
             }?>
 
                 </select></div>
-
+                
+            <!--- Services Filter --->    
                 <div class="select"><select value-group="services" class=" button-groupjs-radio-button-group filters-select" data-width="100%">
                     <option title="button is-checked" value="">Services</option>
                     <option title="button is-checked" value="">View All</option>
@@ -43,14 +51,24 @@ $services = get_terms( array(
             }?>
 
                     </select></div>
+                
+            <!--- Insurance Filter --->    
+                <div class="select"><select value-group="insurance" class=" button-groupjs-radio-button-group filters-select" data-width="100%">
+                    <option title="button is-checked" value="">Accepted Insurace</option>
+                    <option title="button is-checked" value="">View All</option>
+
+                    <?php foreach ($insurances as $ins) {
+                    echo '<option class="button" value=".'.$ins->slug.'">'.$ins->name.'</option>';
+            }?>
+
+                    </select></div>    
             </div>
 
-            <p class="search">
+        </div>
+        <p class="search">
                 <input type="text" class="quicksearch" placeholder="Search..." />
                 <img src="<?php the_field( 'search_icon', 'option' ); ?>" data-rjs="2" alt="search icon" />
             </p>
-
-        </div>
 
     </div>
 </div>
