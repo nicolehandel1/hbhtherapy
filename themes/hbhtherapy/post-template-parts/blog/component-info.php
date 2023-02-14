@@ -143,12 +143,6 @@
                     <i class="fab fa-linkedin-in" alt="LinkedIn share link"></i>
                 </a>
             </div>
-            
-            <p class="clinician-subtitle">Appointments</p>
-            <hr>
-            <a class="phone" href="tel:<?php the_field( 'header_phone_number_link', 'option' ); ?>"><?php the_field( 'header_phone_number', 'option' ); ?></a>
-
-            <a class="btn" href="<?php the_field( 'view_availability_link', 'option' ); ?>" target="_blank"><?php the_field( 'clinician_button_label', 'option' ); ?></a>
                         
             <p class="clinician-subtitle">Subscribe To Our Newsletter</p>
             <hr>
@@ -173,6 +167,12 @@
                         $(id).style.display ='none';
                     }
             </script>
+            
+            <p class="clinician-subtitle">Appointments</p>
+            <hr>
+            <a class="phone" href="tel:<?php the_field( 'header_phone_number_link', 'option' ); ?>"><?php the_field( 'header_phone_number', 'option' ); ?></a>
+
+            <a class="btn" href="<?php the_field( 'view_availability_link', 'option' ); ?>" target="_blank"><?php the_field( 'clinician_button_label', 'option' ); ?></a>
 
         </div>
 
