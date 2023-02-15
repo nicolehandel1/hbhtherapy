@@ -138,7 +138,7 @@ add_action( 'widgets_init', 'hbhtherapy_widgets_init' );
  * Enqueue scripts and styles.
  */
 function hbhtherapy_scripts() {
-	wp_enqueue_style( 'hbhtherapy-style', get_stylesheet_uri(), array(), '1.0' );
+	wp_enqueue_style( 'hbhtherapy-style', get_stylesheet_uri(), array(), '2.0' );
 	wp_style_add_data( 'hbhtherapy-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'hbhtherapy-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
