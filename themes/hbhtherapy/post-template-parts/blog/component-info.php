@@ -1,66 +1,3 @@
-<style>
-.popup {
-  display: none;
-  position: fixed;
-  padding: 10px;
-  left: 50%;
-  margin-left: -150px;
-  top: 40%;
-  margin-top: -100px;
-  background: #FFF;
-  z-index: 20;
-}
-
-#popup:after {
-  position: fixed;
-  content: "";
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(0,0,0,0.5);
-  z-index: -2;
-}
-
-#popup:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: #FFF;
-  z-index: -1;
-}
-.mailster-form {
-    padding: 30px 40px;
-}  
-
-.close {
-    position: fixed;
-    font-size: 50px;
-    font-weight: 300;
-    margin-top: -57px;
-    margin-left: 404px;
-}    
-
-@media only screen and (max-width: 800px) {
-    .popup {
-        left: 0;
-        margin-left: auto; 
-        top: 0;
-        margin-top: 56px;
-        width: 100%;
-        Height: 100%;
-    }
-    .close {
-        position: relative;
-        margin: auto;
-        float: right;
-    }    
-    }
-    
-</style>
 <div class="section blg-info-section">
     <div class="section-content blog-info-contnt">
         
@@ -155,18 +92,7 @@
             <hr>
               <?php echo mailster_form( 1 ); ?>
             </div>
-            <script>
-                $ = function(id) {
-                      return document.getElementById(id);
-                    }
-
-                    var show = function(id) {
-                        $(id).style.display ='block';
-                    }
-                    var hide = function(id) {
-                        $(id).style.display ='none';
-                    }
-            </script>
+            
             
             <p class="clinician-subtitle">Appointments</p>
             <hr>
@@ -178,3 +104,16 @@
 
     </div>
 </div>
+
+<script>
+    $ = function(id) {
+        return document.getElementById(id);
+        }
+
+        var show = function(id) {
+            $(id).style.display ='block';
+        }
+        var hide = function(id) {
+            $(id).style.display ='none';
+        }
+</script>

@@ -134,6 +134,14 @@
         font-size: 12px;
         padding: 0 13px;
     }
+    
+    .ft-news-btn {
+    }
+    
+    .ft-news-btn .btn{
+        width: 100%;
+        margin-top: 20px;
+    }
 
     @media only screen and (max-width: 1065px) {
         .footer-logo-container {
@@ -242,11 +250,39 @@
                                 <a class="ftphone" href="mailto:<?php the_field( 'careers_email', 'option' ); ?>"><?php the_field( 'careers_email', 'option' ); ?></a>
                                 <?php endif; ?>
                         </div>
-                        <div class="ft-info ft-social">
-                            <a href="<?php the_field( 'facebook_link', 'option' ); ?>" target="_blank" class="ftsocial"><i class="fab fa-facebook-f" alt="Facebook share link"></i></a>
-                            <a href="<?php the_field( 'instagram_link', 'option' ); ?>" target="_blank" class="ftsocial"><i class="fab fa-instagram" alt="Twitter share link"></i></a>
-                            <a href="<?php the_field( 'linkedin_link', 'option' ); ?>" target="_blank" class="ftsocial"><i class="fab fa-linkedin-in" alt="LinkedIn share link"></i></a>
+                        
+                        <div class="ft-info">
+                            <div class="ft-social">
+                                <a href="<?php the_field( 'facebook_link', 'option' ); ?>" target="_blank" class="ftsocial"><i class="fab fa-facebook-f" alt="Facebook share link"></i></a>
+                                <a href="<?php the_field( 'instagram_link', 'option' ); ?>" target="_blank" class="ftsocial"><i class="fab fa-instagram" alt="Twitter share link"></i></a>
+                                <a href="<?php the_field( 'linkedin_link', 'option' ); ?>" target="_blank" class="ftsocial"><i class="fab fa-linkedin-in" alt="LinkedIn share link"></i></a>
+                            </div>
+                            <div class="ft-news-btn">
+                                <button class="btn" href="#" onclick="show('popup')">Newsletter</button>
+
+                                    <!-- This is what will be included inside the popup -->
+                                    <div class="popup" id="popup">
+                                          <a class="close" href="#" onclick="hide('popup')">x</a>
+                                        <p class="clinician-subtitle" style="padding-left: 30px;">Subscribe To Our Newsletter</p>
+                                    <hr>
+                                      <?php echo mailster_form( 1 ); ?>
+                                    </div>
+                                <script>
+                                    $ = function(id) {
+                                        return document.getElementById(id);
+                                        }
+
+                                        var show = function(id) {
+                                            $(id).style.display ='block';
+                                        }
+                                        var hide = function(id) {
+                                            $(id).style.display ='none';
+                                        }
+                                </script>
+                            </div>
                         </div>
+                        
+                        
                     </div> 
 
                 </div>
@@ -268,6 +304,7 @@
         </div>
     </div> <!-- .site-info -->
 </footer><!-- #colophon -->
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
