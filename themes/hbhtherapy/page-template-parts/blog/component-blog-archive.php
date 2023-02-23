@@ -10,6 +10,17 @@
     font-weight: 800;
     font-size: 16px;
 }
+    .blg-btn {
+        width: auto;
+            border: 1px solid #085962;
+    box-shadow: -1px 2px 5px -2px #085962;
+    -webkit-box-shadow: -1px 2px 5px -2px #085962;
+    }
+    
+    .blg-btn:hover {
+        background-color: #085962;
+    }
+    
     @media only screen and (max-width: 1200px) {
     .blog-filters {
         flex-wrap: wrap;
@@ -22,6 +33,9 @@
     .filter-wrap {
     justify-content: flex-start; 
     }
+    .blg-btn {
+        display: none;
+    }    
     }
 </style>
 
@@ -58,14 +72,23 @@ $cats = get_categories( array(
                     <img src="<?php the_field( 'search_icon', 'option' ); ?>" data-rjs="2" alt="search icon" />
                 </p>
                 
-                <div class="select"  style="margin: 25px;"><select value-group="locations" class="button-group js-radio-button-group filters-select" data-width="100%">
+                <div class="select" style="margin: 25px 5px;"><select value-group="locations" class="button-group js-radio-button-group filters-select" data-width="100%">
                     <option title="button is-checked" value="">Filter</option>
                     <option title="button is-checked" value="">All</option>
 
                     <?php foreach ($cats as $cat) {
                     echo '<option class="button" value=".'.$cat->slug.'">'.$cat->name.'</option>'; }?>
 
-                </select></div> 
+                </select></div>
+                <button style="margin: 25px 5px;" class="blg-btn btn" href="#" onclick="show('popup')">Newsletter</button>
+
+                                    <!-- This is what will be included inside the popup -->
+                                    <div class="popup" id="popup">
+                                          <a class="close" href="#" onclick="hide('popup')">x</a>
+                                        <p class="clinician-subtitle" style="padding-left: 30px;">Subscribe To Our Newsletter</p>
+                                    <hr>
+                                      <?php echo mailster_form( 1 ); ?>
+                                    </div>
 
             </div>
         </div>

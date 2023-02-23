@@ -2109,7 +2109,7 @@ option:hover {
 
 p.search {
     display: flex;
-    width: 30%;
+    width: 50%;
     margin: 25px;
     border: 1px solid #085962;
     background-color: #fff;
@@ -2215,7 +2215,6 @@ Home Page
 }
 
 .blogpg-section-content p.search {
-    width: 100%;
 }
 
 .blog-grid-item {
