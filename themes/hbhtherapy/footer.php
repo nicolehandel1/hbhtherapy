@@ -268,15 +268,15 @@
                                       <?php echo mailster_form( 1 ); ?>
                                     </div>
                                 <script>
-                                    $ = function(id) {
-                                        return document.getElementById(id);
+                                    $poP = function(subscribe) {
+                                        return document.getElementById("popup");
                                         }
 
-                                        var show = function(id) {
-                                            $(id).style.display ='block';
+                                        var show = function(subscribe) {
+                                            $poP("popup").style.display ='block';
                                         }
-                                        var hide = function(id) {
-                                            $(id).style.display ='none';
+                                        var hide = function(subscribe) {
+                                            $poP("popup").style.display ='none';
                                         }
                                 </script>
                             </div>
