@@ -634,6 +634,61 @@
             "maxlength": ""
         },
         {
+            "key": "field_667577ecf105b",
+            "label": "Fax",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_66757809f105c",
+            "label": "Fax Label",
+            "name": "fax_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_66757823f105d",
+            "label": "Fax Link",
+            "name": "fax_link",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_62621ea7e9f04",
             "label": "Careers",
             "name": "",
@@ -859,5 +914,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1661002432
+    "modified": 1718974688
 }

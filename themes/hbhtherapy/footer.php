@@ -244,6 +244,8 @@
                             <h4 class="ft-titlink" style="margin-top: 25px;">Contact</h4>
                             <a class="ftphone" href="tel:<?php the_field( 'contact_phone_link', 'option' ); ?>;"><?php the_field( 'contact_phone_label', 'option' ); ?></a>
                             <a class="ftphone" href="mailto:<?php the_field( 'contact_email', 'option' ); ?>"><?php the_field( 'contact_email', 'option' ); ?></a>
+                            <h4 class="ft-titlink" style="margin-top: 25px;">Fax Number</h4>
+                            <a class="ftphone" href="tel:<?php the_field( 'fax_link', 'option' ); ?>;"><?php the_field( 'fax_label', 'option' ); ?></a>
                             <?php $career_page_link = get_field( 'career_page_link', 'option' ); ?>
                                 <?php if ( $career_page_link ) : ?>
                                 <a href="<?php echo esc_url( $career_page_link); ?>"><h4 class="ft-titlink" style="margin-top: 25px;">Careers</h4></a>
