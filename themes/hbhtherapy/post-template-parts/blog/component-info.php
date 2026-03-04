@@ -35,7 +35,7 @@
                 
            <?php if ( have_rows( 'blog_author' ) ): ?>
                 
-           <h1 class="blog-subtitle bauthor-title">About The Author</h1>
+           <h4 class="blog-subtitle bauthor-title">About The Author</h4>
 
            <?php while ( have_rows( 'blog_author' ) ) : the_row(); ?>
 		   
