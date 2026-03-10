@@ -10,7 +10,11 @@ $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
             
             <a class="archive-link" href="/mental-health-treatment-therapy/">HBH Treatment & Therapies</a>
 
-            <h1 class="blog-title"><?php the_title(); ?></h1>
+            <?php if ( get_field('svc-heading') ) : ?>
+                <h1 class="blog-title"><?php the_field('svc-heading'); ?></h1>
+            <?php else : ?>
+                <h1 class="blog-title"><?php the_title(); ?></h1>
+            <?php endif; ?>
 
             <?php if( get_field('blog_subtitle') ): ?>
             <h2 class="blog-hero-subtitle"><?php the_field( 'blog_subtitle' ); ?></h2>
