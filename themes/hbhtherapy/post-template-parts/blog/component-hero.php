@@ -17,7 +17,7 @@ $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
             
             <a class="archive-link" href="/mental-health-blog/">Mental Health Blog</a>
 
-            <?php if ( get_field('svc-heading') ) : ?>
+            <?php if ( get_field('blog-heading') ) : ?>
                 <h1 class="blog-title"><?php the_field('blog-heading'); ?></h1>
             <?php else : ?>
                 <h1 class="blog-title"><?php the_title(); ?></h1>

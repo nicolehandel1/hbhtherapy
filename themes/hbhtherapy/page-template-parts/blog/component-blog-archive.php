@@ -115,7 +115,11 @@ $cats = get_categories( array(
                     <img class="clinician-single-headshot" src="<?php echo $image[0]; ?>" data-rjs="2" alt="<?php echo $alt_text; ?>" />
 
                     <!-- <p class="archive-link"><?php foreach($categories as $cd){ echo $cd->cat_name;} ?></p> --->
-                    <h3><?php the_title() ?></h3>
+                    <?php if ( get_field('blog-heading') ) : ?>
+                        <h3><?php the_field('blog-heading'); ?></h3>
+                    <?php else : ?>
+                        <h3><?php the_title(); ?></h3>
+                    <?php endif; ?>
 
                     <?php if ( have_rows( 'blog_author' ) ): ?>
                     <?php while ( have_rows( 'blog_author' ) ) : the_row(); ?>
