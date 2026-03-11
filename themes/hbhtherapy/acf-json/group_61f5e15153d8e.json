@@ -27,6 +27,25 @@
             "mime_types": ""
         },
         {
+            "key": "field_69b0b27d080cc",
+            "label": "Heading",
+            "name": "blog-heading",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_61f5e1be3b09b",
             "label": "Subtitle",
             "name": "blog_subtitle",
@@ -353,5 +372,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1675361898
+    "modified": 1773187725
 }
