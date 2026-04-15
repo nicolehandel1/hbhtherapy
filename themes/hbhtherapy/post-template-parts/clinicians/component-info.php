@@ -12,6 +12,8 @@ $insurance = wp_get_post_terms($post->ID, 'clinician-insurance');
 
 $location = wp_get_post_terms($post->ID, 'clinician-location');
 
+$language = wp_get_post_terms($post->ID, 'clinician-language');
+
 ?>
 
 <div class="section clin-info-section">
@@ -41,6 +43,14 @@ $location = wp_get_post_terms($post->ID, 'clinician-location');
             <hr>
             <ul class="sidebar-bullets"><?php foreach ($insurance as $insurance) {
                         $out[] = '<li>' .$insurance->name .'</li>';
+                    }
+                    echo join( $out ); } ?></ul>
+            
+            <?php if ($language) { $out = array(); ?>
+            <p class="clinician-subtitle">Languages</p>
+            <hr>
+            <ul class="sidebar-bullets"><?php foreach ($language as $language) {
+                        $out[] = '<li>' .$language->name .'</li>';
                     }
                     echo join( $out ); } ?></ul>
             
